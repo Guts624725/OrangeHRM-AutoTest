@@ -1,0 +1,27 @@
+元素定位中涉及到有文本时尽量用contains(), 不要使用text()
+    例:
+        div[contains(.,"你好")]，定位到所有含有 "你好" 的div标签 即使div下属标签中含有"你好"也能找出来
+                                即使有注释的文字也可以
+        div[text()="你好"]，只能在当前节点中找出，在div的下属标签或者注释文字中含有"你好"找不出来
+    contains()优于text()
+
+类型	描述	特点
+成功提示	绿色背景，文字“成功”“保存成功”	一般对应 success / toast-success class
+错误提示	红色背景，文字“失败”“错误”	class 含 error / danger / toast-error
+警告提示	黄色/橙色，文字“警告”“注意”	class 含 warning / toast-warning
+信息提示	蓝色/灰色，纯信息展示	class 含 info / toast-info
+加载中提示	通常带转圈图标，不会自动消失	有时不算 Toast，而是独立组件
+
+
+轴名称	含义	示例
+following-sibling	后面紧挨着的兄弟	//label/../following-sibling::div
+preceding-sibling	前面紧挨着的兄弟	//input/preceding-sibling::label
+ancestor	向上找任意祖先	//label/ancestor::div[contains(@class,'oxd-input-group')]
+parent	直接父级	//label/parent::div
+
+
+2026-5-16:
+    1.将各个类都进行优化，性能更加优越
+    2.在OrangeHRM这个系统中定位元素多为动态的，应多使用父级兄弟级这样的定位准确
+    3.封装的断言类实例化(里面有一些方法需要用到driver这个浏览器对象)应该在conftest里的driver加载完才可以
+    4.要注意！！！在baseAutoWeb里的wait_for_toast()方法是只是适用otd-toast的弹窗，对其他的不适用

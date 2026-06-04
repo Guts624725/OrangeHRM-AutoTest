@@ -1,0 +1,723 @@
+2026-05-28 22:41:31,098 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:41:31,098 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 22:41:31,518 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:43:13,880 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:43:13,880 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 22:43:14,242 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:43:14,244 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:43:14,246 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-28 22:43:14,261 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:43:14,352 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:43:14,353 - baseData.py - ERROR - 读取元素数据失败：01登录页面接口信息，错误：while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2475), match=':token="&quot;f91cb5582ec273ac8.MA7UX8UF ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2475), match=':token="&quot;f91cb5582ec273ac8.MA7UX8UFvT7io ... 
+                                         ^
+2026-05-28 22:43:14,354 - baseAutoHttp.py - ERROR - 【login_api】接口请求失败: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2475), match=':token="&quot;f91cb5582ec273ac8.MA7UX8UF ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2475), match=':token="&quot;f91cb5582ec273ac8.MA7UX8UFvT7io ... 
+                                         ^
+Traceback (most recent call last):
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseAutoHttp.py", line 45, in request_base
+    yaml_data: Dict[str, Any] = self.get_element_data(change_data)[apiName]
+                                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseData.py", line 97, in get_element_data
+    data = yaml.load(content, Loader=yaml.FullLoader)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 231, in fetch_more_tokens
+    return self.fetch_anchor()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 621, in fetch_anchor
+    self.tokens.append(self.scan_anchor(AnchorToken))
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 929, in scan_anchor
+    raise ScannerError("while scanning an %s" % name, start_mark,
+            "expected alphabetic or numeric character, but found %r"
+            % ch, self.get_mark())
+yaml.scanner.ScannerError: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2475), match=':token="&quot;f91cb5582ec273ac8.MA7UX8UF ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2475), match=':token="&quot;f91cb5582ec273ac8.MA7UX8UFvT7io ... 
+                                         ^
+2026-05-28 22:43:14,824 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:43:14,894 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:43:14,896 - baseData.py - ERROR - 读取元素数据失败：01登录页面接口信息，错误：while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2466), match=':token="&quot;d5dcfbb4.Ryigs1F2mwGF-5ELW ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2466), match=':token="&quot;d5dcfbb4.Ryigs1F2mwGF-5ELW-HM9t ... 
+                                         ^
+2026-05-28 22:43:14,896 - baseAutoHttp.py - ERROR - 【login_api】接口请求失败: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2466), match=':token="&quot;d5dcfbb4.Ryigs1F2mwGF-5ELW ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2466), match=':token="&quot;d5dcfbb4.Ryigs1F2mwGF-5ELW-HM9t ... 
+                                         ^
+Traceback (most recent call last):
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseAutoHttp.py", line 45, in request_base
+    yaml_data: Dict[str, Any] = self.get_element_data(change_data)[apiName]
+                                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseData.py", line 97, in get_element_data
+    data = yaml.load(content, Loader=yaml.FullLoader)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 231, in fetch_more_tokens
+    return self.fetch_anchor()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 621, in fetch_anchor
+    self.tokens.append(self.scan_anchor(AnchorToken))
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 929, in scan_anchor
+    raise ScannerError("while scanning an %s" % name, start_mark,
+            "expected alphabetic or numeric character, but found %r"
+            % ch, self.get_mark())
+yaml.scanner.ScannerError: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2466), match=':token="&quot;d5dcfbb4.Ryigs1F2mwGF-5ELW ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2466), match=':token="&quot;d5dcfbb4.Ryigs1F2mwGF-5ELW-HM9t ... 
+                                         ^
+2026-05-28 22:43:14,986 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:43:15,039 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:43:15,041 - baseData.py - ERROR - 读取元素数据失败：01登录页面接口信息，错误：while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2485), match=':token="&quot;c81ffbb180220896970a6f8531 ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2485), match=':token="&quot;c81ffbb180220896970a6f85311.-kd ... 
+                                         ^
+2026-05-28 22:43:15,041 - baseAutoHttp.py - ERROR - 【login_api】接口请求失败: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2485), match=':token="&quot;c81ffbb180220896970a6f8531 ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2485), match=':token="&quot;c81ffbb180220896970a6f85311.-kd ... 
+                                         ^
+Traceback (most recent call last):
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseAutoHttp.py", line 45, in request_base
+    yaml_data: Dict[str, Any] = self.get_element_data(change_data)[apiName]
+                                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseData.py", line 97, in get_element_data
+    data = yaml.load(content, Loader=yaml.FullLoader)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 231, in fetch_more_tokens
+    return self.fetch_anchor()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 621, in fetch_anchor
+    self.tokens.append(self.scan_anchor(AnchorToken))
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 929, in scan_anchor
+    raise ScannerError("while scanning an %s" % name, start_mark,
+            "expected alphabetic or numeric character, but found %r"
+            % ch, self.get_mark())
+yaml.scanner.ScannerError: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2485), match=':token="&quot;c81ffbb180220896970a6f8531 ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2485), match=':token="&quot;c81ffbb180220896970a6f85311.-kd ... 
+                                         ^
+2026-05-28 22:48:16,734 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:48:16,735 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 22:48:17,082 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:48:17,084 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:48:17,086 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-28 22:48:17,093 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:48:17,167 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:48:17,169 - baseData.py - ERROR - 读取元素数据失败：01登录页面接口信息，错误：while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2462), match=':token="&quot;755e.420tow_W25ETgy2iuxusU ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2462), match=':token="&quot;755e.420tow_W25ETgy2iuxusUn2oho ... 
+                                         ^
+2026-05-28 22:48:17,169 - baseAutoHttp.py - ERROR - 【login_api】接口请求失败: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2462), match=':token="&quot;755e.420tow_W25ETgy2iuxusU ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2462), match=':token="&quot;755e.420tow_W25ETgy2iuxusUn2oho ... 
+                                         ^
+Traceback (most recent call last):
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseAutoHttp.py", line 45, in request_base
+    yaml_data: Dict[str, Any] = self.get_element_data(change_data)[apiName]
+                                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseData.py", line 97, in get_element_data
+    data = yaml.load(content, Loader=yaml.FullLoader)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 231, in fetch_more_tokens
+    return self.fetch_anchor()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 621, in fetch_anchor
+    self.tokens.append(self.scan_anchor(AnchorToken))
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 929, in scan_anchor
+    raise ScannerError("while scanning an %s" % name, start_mark,
+            "expected alphabetic or numeric character, but found %r"
+            % ch, self.get_mark())
+yaml.scanner.ScannerError: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2462), match=':token="&quot;755e.420tow_W25ETgy2iuxusU ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2462), match=':token="&quot;755e.420tow_W25ETgy2iuxusUn2oho ... 
+                                         ^
+2026-05-28 22:48:17,597 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:48:17,659 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:48:17,661 - baseData.py - ERROR - 读取元素数据失败：01登录页面接口信息，错误：while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2468), match=':token="&quot;c690e8230c.Sat3qraF6Ez2VGp ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2468), match=':token="&quot;c690e8230c.Sat3qraF6Ez2VGpG0u5n ... 
+                                         ^
+2026-05-28 22:48:17,661 - baseAutoHttp.py - ERROR - 【login_api】接口请求失败: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2468), match=':token="&quot;c690e8230c.Sat3qraF6Ez2VGp ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2468), match=':token="&quot;c690e8230c.Sat3qraF6Ez2VGpG0u5n ... 
+                                         ^
+Traceback (most recent call last):
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseAutoHttp.py", line 45, in request_base
+    yaml_data: Dict[str, Any] = self.get_element_data(change_data)[apiName]
+                                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseData.py", line 97, in get_element_data
+    data = yaml.load(content, Loader=yaml.FullLoader)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 231, in fetch_more_tokens
+    return self.fetch_anchor()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 621, in fetch_anchor
+    self.tokens.append(self.scan_anchor(AnchorToken))
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 929, in scan_anchor
+    raise ScannerError("while scanning an %s" % name, start_mark,
+            "expected alphabetic or numeric character, but found %r"
+            % ch, self.get_mark())
+yaml.scanner.ScannerError: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2468), match=':token="&quot;c690e8230c.Sat3qraF6Ez2VGp ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2468), match=':token="&quot;c690e8230c.Sat3qraF6Ez2VGpG0u5n ... 
+                                         ^
+2026-05-28 22:48:17,752 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:48:17,812 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:48:17,814 - baseData.py - ERROR - 读取元素数据失败：01登录页面接口信息，错误：while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2470), match=':token="&quot;32af154009c0.SywHtUuVA6sz7 ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2470), match=':token="&quot;32af154009c0.SywHtUuVA6sz7-CG8a ... 
+                                         ^
+2026-05-28 22:48:17,814 - baseAutoHttp.py - ERROR - 【login_api】接口请求失败: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2470), match=':token="&quot;32af154009c0.SywHtUuVA6sz7 ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2470), match=':token="&quot;32af154009c0.SywHtUuVA6sz7-CG8a ... 
+                                         ^
+Traceback (most recent call last):
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseAutoHttp.py", line 45, in request_base
+    yaml_data: Dict[str, Any] = self.get_element_data(change_data)[apiName]
+                                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\Base\baseData.py", line 97, in get_element_data
+    data = yaml.load(content, Loader=yaml.FullLoader)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 231, in fetch_more_tokens
+    return self.fetch_anchor()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 621, in fetch_anchor
+    self.tokens.append(self.scan_anchor(AnchorToken))
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\develop\PythonProject\OrangeHRM\.venv\Lib\site-packages\yaml\scanner.py", line 929, in scan_anchor
+    raise ScannerError("while scanning an %s" % name, start_mark,
+            "expected alphabetic or numeric character, but found %r"
+            % ch, self.get_mark())
+yaml.scanner.ScannerError: while scanning an anchor
+  in "<unicode string>", line 9, column 66:
+     ... an=(2334, 2470), match=':token="&quot;32af154009c0.SywHtUuVA6sz7 ... 
+                                         ^
+expected alphabetic or numeric character, but found ';'
+  in "<unicode string>", line 9, column 71:
+     ... 334, 2470), match=':token="&quot;32af154009c0.SywHtUuVA6sz7-CG8a ... 
+                                         ^
+2026-05-28 22:51:35,815 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:51:35,816 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 22:51:36,191 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:51:36,193 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:51:36,194 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-28 22:51:36,200 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:51:36,266 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:51:36,268 - baseData.py - INFO - 动态参数替换成功：{'_token': 'd44afac83131fbdbab.sTtvXGN1TW0qVCwhw2hnI8TG7O1RmEDYakDByjvbISo.2wsqKzRBLgQTEmFOh1wJa_ajqtwm4jCCHRGk_X7rSx7ncRxrOT0OWhkCfQ', 'username': 'wrong', 'password': 'wrong'}
+2026-05-28 22:51:36,268 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-05-28 22:51:36,268 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-05-28 22:51:36,268 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-05-28 22:51:36,268 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'd44afac83131fbdbab.sTtvXGN1TW0qVCwhw2hnI8TG7O1RmEDYakDByjvbISo.2wsqKzRBLgQTEmFOh1wJa_ajqtwm4jCCHRGk_X7rSx7ncRxrOT0OWhkCfQ', 'username': 'wrong', 'password': 'wrong'} | json=None
+2026-05-28 22:51:36,373 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-28 22:51:36,374 - baseAutoHttp.py - INFO - 响应耗时: 0.056479s
+2026-05-28 22:51:36,374 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;46ce63e2529d445fc433dc47.t0bnOY5eKcv_lb1bfuaRihWRXJyINQB6nobDaKUEKe8.3XaiTtlqSqLG0_A0OtL_wif0Gq3_T3Ag6demX-A0Q9vhDJQO1BZq_MzD7A&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-05-28 22:51:36,374 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-05-28 22:51:36,374 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:51:36,374 - test_web_ohrm.py - INFO - 【错误用户名/密码】用例执行成功
+2026-05-28 22:51:36,382 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:51:36,432 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:51:36,434 - baseData.py - INFO - 动态参数替换成功：{'_token': 'c3f90c1db34ba717.T9VYAQ5KL1w8MDftmdSNa9NtRZ5HkaGhb_THLwiWxRE.Pb8sNXsCQmVVSlKX1YP6DLsdEucU24zMBpf-SDn4lFx-hBY3RzN5PnBqYg', 'username': '', 'password': 'Keepmoving624.'}
+2026-05-28 22:51:36,434 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-05-28 22:51:36,434 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-05-28 22:51:36,434 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-05-28 22:51:36,435 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'c3f90c1db34ba717.T9VYAQ5KL1w8MDftmdSNa9NtRZ5HkaGhb_THLwiWxRE.Pb8sNXsCQmVVSlKX1YP6DLsdEucU24zMBpf-SDn4lFx-hBY3RzN5PnBqYg', 'username': '', 'password': 'Keepmoving624.'} | json=None
+2026-05-28 22:51:36,550 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-28 22:51:36,550 - baseAutoHttp.py - INFO - 响应耗时: 0.053326s
+2026-05-28 22:51:36,550 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;60b27a3bb3803d3e0.MMEjkBYzHOtyZ_OLPtv2Z40txFTfsh2veoBC4MDJ5Pk.QqtXpGN7cdIbHZbxcoyBAOVdky2M-DDCE-N7h_GntbQBkG2mX0pKiT49pg&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-05-28 22:51:36,550 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-05-28 22:51:36,550 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:51:36,551 - test_web_ohrm.py - INFO - 【用户名为空】用例执行成功
+2026-05-28 22:51:36,555 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 22:51:36,604 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-05-28 22:51:36,606 - baseData.py - INFO - 动态参数替换成功：{'_token': 'a604cd235ae3aef88750b7b9b661f8a.vhmWimLytXRGJikeM-P0fQtNOf5NYV3mNvs7fD_jEiE.-CzR4w-I4jlwY3ZMWIWdTk86aoc9CRXLBKsNPmiqeXfwYfrAV7_iLhJQbA', 'username': 'admin', 'password': ''}
+2026-05-28 22:51:36,606 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-05-28 22:51:36,606 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-05-28 22:51:36,607 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-05-28 22:51:36,607 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'a604cd235ae3aef88750b7b9b661f8a.vhmWimLytXRGJikeM-P0fQtNOf5NYV3mNvs7fD_jEiE.-CzR4w-I4jlwY3ZMWIWdTk86aoc9CRXLBKsNPmiqeXfwYfrAV7_iLhJQbA', 'username': 'admin', 'password': ''} | json=None
+2026-05-28 22:51:36,927 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-28 22:51:36,927 - baseAutoHttp.py - INFO - 响应耗时: 0.06552s
+2026-05-28 22:51:36,927 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;c21.4uzdiUif7YYAXNX6CRpISBN5nr9Q8cmz0Q2fEWEu3F4.pNma4CXluss2GYqoYnwhe1cOzcYgmYGe412pUzZntwislLHDfdK63FQqkA&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-05-28 22:51:36,927 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-05-28 22:51:36,927 - web_login_page.py - INFO - 断言成功
+2026-05-28 22:51:36,927 - test_web_ohrm.py - INFO - 【密码为空】用例执行成功

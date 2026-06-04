@@ -1,0 +1,249 @@
+2026-05-17 18:11:08,445 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:08,445 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:11:08,797 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:08,799 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:11:08,800 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:08,801 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:11:09,985 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:11:09,987 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:09,988 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:11:09,988 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:15,503 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:11:15,505 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:15,507 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:11:18,557 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:11:23,771 - 02修改员工信息.yaml - INFO - 点击删除按钮
+2026-05-17 18:11:46,448 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:12:29,721 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:29,722 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:12:30,044 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:30,046 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:12:30,047 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:30,049 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:12:31,228 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:12:31,230 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:31,230 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:12:31,231 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:36,700 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:12:36,702 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:36,704 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:12:39,475 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:12:43,322 - 02修改员工信息.yaml - INFO - 点击删除按钮
+2026-05-17 18:13:06,024 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:13:56,708 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:13:56,709 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:13:57,187 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:13:57,189 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:13:57,191 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:13:57,193 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:13:58,364 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:13:58,366 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:13:58,366 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:13:58,367 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:14:04,768 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:14:04,771 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:14:04,773 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:14:06,966 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:14:10,628 - 02修改员工信息.yaml - INFO - 点击删除按钮
+2026-05-17 18:14:33,347 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:15:42,691 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:15:42,691 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:15:43,006 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:15:43,008 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:15:43,009 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:15:43,010 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:15:44,160 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:15:44,161 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:15:44,162 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:15:44,163 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:15:46,719 - baseAutoWeb.py - ERROR - 元素定位失败：('name', 'username')
+2026-05-17 18:15:46,720 - baseAutoWeb.py - ERROR - 执行click操作失败，元素：login/username，错误：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.168)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff666580295+146d5]
+	chromedriver!GetHandleVerifier [0x7ff666580300+14740]
+	chromedriver!(No symbol) [0x7ff6662ed7cd]
+	chromedriver!(No symbol) [0x7ff6662d8842]
+	chromedriver!(No symbol) [0x7ff6662ff0b1]
+	chromedriver!(No symbol) [0x7ff6663770b0]
+	chromedriver!(No symbol) [0x7ff6663940e2]
+	chromedriver!(No symbol) [0x7ff666339018]
+	chromedriver!(No symbol) [0x7ff666339f03]
+	chromedriver!GetHandleVerifier [0x7ff666895949+329d89]
+	chromedriver!GetHandleVerifier [0x7ff66688fe96+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff6668b3102+347542]
+	chromedriver!GetHandleVerifier [0x7ff66659d425+31865]
+	chromedriver!GetHandleVerifier [0x7ff6665a605c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff666589684+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff666589836+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff66656e347+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ffc4a11e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc4b40c3fc+2c]
+
+2026-05-17 18:15:46,908 - conftest.py - ERROR - Web截图异常：Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff666580295+146d5]
+	chromedriver!GetHandleVerifier [0x7ff666580300+14740]
+	chromedriver!(No symbol) [0x7ff6662ed5b6]
+	chromedriver!(No symbol) [0x7ff666338093]
+	chromedriver!(No symbol) [0x7ff66636fe72]
+	chromedriver!(No symbol) [0x7ff66636a0d1]
+	chromedriver!(No symbol) [0x7ff666369383]
+	chromedriver!(No symbol) [0x7ff6662b60b5]
+	chromedriver!GetHandleVerifier [0x7ff666895949+329d89]
+	chromedriver!GetHandleVerifier [0x7ff66688fe96+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff6668b3102+347542]
+	chromedriver!GetHandleVerifier [0x7ff66659d425+31865]
+	chromedriver!GetHandleVerifier [0x7ff6665a605c+3a49c]
+	chromedriver!(No symbol) [0x7ff6662b4e4a]
+	chromedriver!GetHandleVerifier [0x7ff6669f2118+486558]
+	KERNEL32!BaseThreadInitThunk [0x7ffc4a11e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc4b40c3fc+2c]
+
+2026-05-17 18:15:48,974 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:16:02,578 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:02,579 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:16:02,894 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:02,896 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:16:02,897 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:02,898 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:16:04,070 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:16:04,071 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:04,072 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:16:04,073 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:09,543 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:16:09,545 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:09,547 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:16:12,641 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:16:31,323 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:16:53,978 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:22:06,952 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:06,953 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:22:07,351 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:07,352 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:22:07,353 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:07,354 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:22:08,520 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:22:08,522 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:08,522 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:22:08,523 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:14,065 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:22:14,068 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:14,069 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:22:17,195 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:22:22,822 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:22:45,450 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:27:17,042 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:17,042 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:27:17,389 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:17,390 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:27:17,392 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:17,393 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:27:18,547 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:27:18,549 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:18,549 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:27:18,551 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:24,105 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:27:24,107 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:24,108 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:27:27,263 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:27:33,089 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:29:49,788 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:29:49,789 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:29:50,128 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:29:50,130 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:29:50,131 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:29:50,132 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:29:51,305 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:29:51,307 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:29:51,307 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:29:51,308 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:29:56,990 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:29:56,992 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:29:56,994 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:30:00,534 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:30:06,714 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:31:17,716 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:17,717 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:31:18,047 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:18,049 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:31:18,049 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:18,050 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:31:19,217 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:31:19,219 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:19,220 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:31:19,221 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:24,697 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:31:24,700 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:24,701 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:31:27,557 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:31:31,775 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:31:49,450 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:32:35,466 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:35,466 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:32:35,783 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:35,785 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:32:35,786 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:35,787 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:32:36,950 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:32:36,951 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:36,952 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:32:36,952 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:42,479 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:32:42,481 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:42,484 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:32:45,623 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:32:50,180 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:33:07,823 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:34:53,957 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:34:53,957 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:34:54,286 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:34:54,287 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:34:54,288 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:34:54,289 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:34:55,447 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:34:55,448 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:34:55,449 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:34:55,450 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:35:00,955 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:35:00,958 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:35:00,959 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:35:04,049 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:35:08,464 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:35:28,115 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:42:55,018 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:42:55,019 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:42:55,386 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:42:55,387 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:42:55,388 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:42:55,389 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:42:56,550 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:42:56,551 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:42:56,552 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:42:56,553 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:43:02,103 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:43:02,106 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:43:02,108 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:43:06,288 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:43:10,593 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:43:23,674 - baseAutoWeb.py - ERROR - 元素定位失败：('xpath', "//button[text()='Yes, Delete']")
+2026-05-17 18:43:26,286 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-17 18:47:06,880 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:06,880 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-17 18:47:07,214 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:07,216 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-17 18:47:07,217 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:07,218 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-17 18:47:08,380 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-17 18:47:08,382 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:08,382 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-17 18:47:08,383 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:13,932 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-17 18:47:13,935 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:13,936 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-17 18:47:17,014 - 02修改员工信息.yaml - INFO - ✅ 点击个人信息管理系统
+2026-05-17 18:47:23,598 - 02修改员工信息.yaml - INFO - ✅ 点击删除按钮
+2026-05-17 18:47:25,599 - baseData.py - ERROR - 读取元素数据失败：02修改员工信息，错误：string.Template.safe_substitute() argument after ** must be a mapping, not str
+2026-05-17 18:47:25,600 - baseAutoWeb.py - ERROR - 元素定位失败：xpath
+2026-05-17 18:47:28,155 - conftest.py - INFO - ✅ 浏览器驱动已退出

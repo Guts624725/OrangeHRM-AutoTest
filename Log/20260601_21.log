@@ -1,0 +1,1604 @@
+2026-06-01 21:49:44,634 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:44,634 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:49:45,438 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:45,438 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:49:45,453 - runClient.py - INFO - 🔍 正在收集测试用例，请稍候...
+2026-06-01 21:49:46,154 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:46,154 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:49:46,531 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,157 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,158 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,529 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,531 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-06-01 21:49:47,532 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,534 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-06-01 21:49:47,535 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,536 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-06-01 21:49:47,537 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:47,538 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-06-01 21:49:47,543 - baseYaml.py - INFO - YAML写入成功：E:\develop\PythonProject\OrangeHRM\Data\Temp\tempcases.yaml
+2026-06-01 21:49:47,544 - conftest.py - INFO - ✅ 用例信息已导出：E:\develop\PythonProject\OrangeHRM\Data\Temp\tempcases.yaml
+2026-06-01 21:49:47,945 - runClient.py - INFO - ✅ 用例收集完成，启动用例选择器
+2026-06-01 21:49:48,633 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:48,633 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:49:50,981 - baseYaml.py - INFO - YAML写入成功：E:\develop\PythonProject\OrangeHRM\Data\Temp\testcases.yaml
+2026-06-01 21:49:50,981 - caseSelector.py - INFO - 用例导出成功：E:\develop\PythonProject\OrangeHRM\Data\Temp\testcases.yaml
+2026-06-01 21:49:52,229 - runClient.py - INFO - 🚀 开始执行选中用例，共 18 条
+2026-06-01 21:49:52,527 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:52,685 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:52,686 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:53,553 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:53,556 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-06-01 21:49:53,558 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:53,560 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-06-01 21:49:53,562 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:53,565 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-06-01 21:49:53,567 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:53,569 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-06-01 21:49:53,589 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:53,981 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:49:53,983 - baseData.py - INFO - 动态参数替换成功：{'_token': 'd76c6.5GYUZ3BZEMIGrwdhNNFZDO6dWC18QgepMKrCm1ZaetA.swxAVwgpY4Vk9jYDbag1QZvoF3xOIU7xWPWAyTMsGIHQDHAvEz4nkH7sYA', 'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:49:53,983 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:53,983 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:53,983 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:53,983 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'd76c6.5GYUZ3BZEMIGrwdhNNFZDO6dWC18QgepMKrCm1ZaetA.swxAVwgpY4Vk9jYDbag1QZvoF3xOIU7xWPWAyTMsGIHQDHAvEz4nkH7sYA', 'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:49:54,568 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:54,568 - baseAutoHttp.py - INFO - 响应耗时: 0.154639s
+2026-06-01 21:49:54,568 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+    <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+  <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+  <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+  <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+  <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+  <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+  <noscript>
+    <strong>
+      We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+    </strong>
+  </noscript>
+
+  <div id="app">
+    <oxd-layout
+        home-url="https://www.orangehrm.com/"
+        :sidepanel-menu-items="[{&quot;id&quot;:1,&quot;name&quot;:&quot;\u7ba1\u7406\u5458&quot;,&quot;url&quot;:&quot;\/web\/index.php\/admin\/viewAdminModule&quot;,&quot;icon&quot;:&quot;admin&quot;},{&quot;id&quot;:30,&quot;name&quot;:&quot;\u4e2a\u4eba\u4fe1\u606f\u7ba1\u7406\u7cfb\u7edf&quot;,&quot;url&quot;:&quot;\/web\/index.php\/pim\/viewPimModule&quot;,&quot;icon&quot;:&quot;pim&quot;},{&quot;id&quot;:41,&quot;name&quot;:&quot;\u4f11\u5047&quot;,&quot;url&quot;:&quot;\/web\/index.php\/leave\/viewLeaveModule&quot;,&quot;icon&quot;:&quot;leave&quot;},{&quot;id&quot;:52,&quot;name&quot;:&quot;\u65f6\u95f4&quot;,&quot;url&quot;:&quot;\/web\/index.php\/time\/viewTimeModule&quot;,&quot;icon&quot;:&quot;time&quot;},{&quot;id&quot;:65,&quot;name&quot;:&quot;\u62db\u8058&quot;,&quot;url&quot;:&quot;\/web\/index.php\/recruitment\/viewRecruitmentModule&quot;,&quot;icon&quot;:&quot;recruitment&quot;},{&quot;id&quot;:40,&quot;name&quot;:&quot;\u6211\u7684\u4fe1\u606f&quot;,&quot;url&quot;:&quot;\/web\/index.php\/pim\/viewMyDetails&quot;,&quot;icon&quot;:&quot;myinfo&quot;},{&quot;id&quot;:83,&quot;name&quot;:&quot;\u7ee9\u6548&quot;,&quot;url&quot;:&quot;\/web\/index.php\/performance\/viewPerformanceModule&quot;,&quot;icon&quot;:&quot;performance&quot;},{&quot;id&quot;:82,&quot;name&quot;:&quot;\u4eea\u8868\u76d8&quot;,&quot;url&quot;:&quot;\/web\/index.php\/dashboard\/index&quot;,&quot;icon&quot;:&quot;dashboard&quot;,&quot;active&quot;:true},{&quot;id&quot;:93,&quot;name&quot;:&quot;Directory&quot;,&quot;url&quot;:&quot;\/web\/index.php\/directory\/viewDirectory&quot;,&quot;icon&quot;:&quot;directory&quot;},{&quot;id&quot;:96,&quot;name&quot;:&quot;Maintenance&quot;,&quot;url&quot;:&quot;\/web\/index.php\/maintenance\/viewMaintenanceModule&quot;,&quot;icon&quot;:&quot;maintenance&quot;},{&quot;id&quot;:105,&quot;name&quot;:&quot;Claim&quot;,&quot;url&quot;:&quot;\/web\/index.php\/claim\/viewClaimModule&quot;,&quot;icon&quot;:&quot;claim&quot;},{&quot;id&quot;:101,&quot;name&quot;:&quot;\u6fc0\u52a8&quot;,&quot;url&quot;:&quot;\/web\/index.php\/buzz\/viewBuzz&quot;,&quot;icon&quot;:&quot;buzz&quot;}]"
+        :topbar-menu-items="[]"
+        :user="{&quot;firstName&quot;:&quot;\u8c22&quot;,&quot;lastName&quot;:&quot;\u5b89&quot;,&quot;profImgSrc&quot;:&quot;\/web\/index.php\/pim\/viewPhoto\/empNumber\/1&quot;,&quot;hasPassword&quot;:true}"
+        brand-logo-src="/web/images/orange.png?v=1775433284510"
+        brand-banner-src="/web/images/orangehrm-logo.png?v=1775433284510"
+        logout-url="/web/index.php/auth/logout"
+        support-url="/web/index.php/help/support"
+        :update-password-url="&quot;/web/index.php/pim/updatePassword&quot;"
+        :permissions="{&quot;dashboard_buzz_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_employees_on_leave_today_config&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:true,&quot;canDelete&quot;:false},&quot;dashboard_leave_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_location_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_subunit_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_time_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false}}"
+        :breadcrumb="{&quot;moduleName&quot;:&quot;\u4eea\u8868\u76d8&quot;,&quot;level&quot;:null}"
+        :date-format="{&quot;id&quot;:&quot;Y-m-d&quot;,&quot;label&quot;:&quot;yyyy-mm-dd&quot;}"
+        help-url="/web/index.php/help/help?label=dashboard_index"
+        :show-upgrade="1"
+    >
+      <view-dashboard
+            >
+    </view-dashboard>
+    <template v-slot:footer><oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+<br></template>
+    </oxd-layout>
+  </div>
+  <script type="text/javascript">
+      window.appGlobal = {
+        baseUrl: "/web/index.php",
+        publicPath: "/web",
+      };
+  </script>
+  <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+  <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:54,569 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:49:54,569 - web_login_page.py - INFO - 【管理员正常登录】断言成功
+2026-06-01 21:49:54,569 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:54,569 - test_web_ohrm.py - INFO - 【管理员正常登录】用例执行成功
+2026-06-01 21:49:54,576 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:54,656 - baseAutoHttp.py - INFO - 【02登录页面未携带token:login_not_token_api】接口调用开始
+2026-06-01 21:49:54,658 - baseData.py - INFO - 动态参数替换成功：{'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:49:54,658 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:54,658 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:54,658 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:54,658 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:49:54,815 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:54,816 - baseAutoHttp.py - INFO - 响应耗时: 0.090245s
+2026-06-01 21:49:54,816 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_csrf_token&quot;,&quot;message&quot;:&quot;CSRF token validation failed&quot;}"
+            :token="&quot;1f59e20.puocirU4lXY2BP6mazMjWpoBeVF5xW5Jl8J3qZA5FzY.64wr4M9MuBBidbbuD0NiDvJyETY7ogYzwpMg6-R3R1XgvVPt7HKtKXR8pw&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:54,816 - baseAutoHttp.py - INFO - 【02登录页面未携带token:login_not_token_api】接口调用结束
+
+2026-06-01 21:49:54,816 - web_login_page.py - INFO - 【未携带CSRF令牌】断言成功
+2026-06-01 21:49:54,816 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:54,816 - test_web_ohrm.py - INFO - 【未携带CSRF令牌】用例执行成功
+2026-06-01 21:49:54,823 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:54,956 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:49:54,958 - baseData.py - INFO - 动态参数替换成功：{'_token': '7be860b4f7153480ace96965b.ONXlbRd20uTp11DPBgVAqFyzERsjg-JNpZocFTu6hXY.V6O8GCRCpL2_vj2jTkANzS_rKWla2s80yP1fSlOK4B1RgoMDdSKUiIOSHQ', 'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:49:54,958 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:54,958 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:54,958 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:54,958 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '7be860b4f7153480ace96965b.ONXlbRd20uTp11DPBgVAqFyzERsjg-JNpZocFTu6hXY.V6O8GCRCpL2_vj2jTkANzS_rKWla2s80yP1fSlOK4B1RgoMDdSKUiIOSHQ', 'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:49:55,083 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:55,084 - baseAutoHttp.py - INFO - 响应耗时: 0.074035s
+2026-06-01 21:49:55,084 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_csrf_token&quot;,&quot;message&quot;:&quot;CSRF token validation failed&quot;}"
+            :token="&quot;36ad7d4d0aad12609c2.soLSXwzmrKy8qklTF22DJuLyo_S9ZS2NkWdqnum-8os.1OuUFkPSyJyE8A8ZQR_bXpXE7bviCnr-pjg_xLP3n-HtzKgXWI767-zmEA&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:55,084 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:49:55,084 - web_login_page.py - INFO - 【跨会话使用Token】断言成功
+2026-06-01 21:49:55,084 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:55,084 - test_web_ohrm.py - INFO - 【携带过期CSRF令牌】用例执行成功
+2026-06-01 21:49:55,090 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:55,091 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:49:55,092 - baseData.py - INFO - 动态参数替换成功：{'_token': '4vgxr6i6sUG8kzCTUoYf', 'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:49:55,092 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:55,092 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:55,092 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:55,092 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '4vgxr6i6sUG8kzCTUoYf', 'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:49:55,213 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:55,213 - baseAutoHttp.py - INFO - 响应耗时: 0.079308s
+2026-06-01 21:49:55,213 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_csrf_token&quot;,&quot;message&quot;:&quot;CSRF token validation failed&quot;}"
+            :token="&quot;20f75c3112b9bbeaa17f2f974c362.3OXuxREw8iQXYxH6GiHiQxUoNVMtTDGJkTa4CTpMT4g.paKMoWBIlnFOMXOlURmBKVpkQ2VnOGmkzl-LQXJ1fsayqqujeAewRSIidg&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:55,213 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:49:55,214 - web_login_page.py - INFO - 【携带错误格式Token】断言成功
+2026-06-01 21:49:55,214 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:55,214 - test_web_ohrm.py - INFO - 【携带错误格式Token】用例执行成功
+2026-06-01 21:49:55,221 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:55,276 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:49:55,277 - baseData.py - INFO - 动态参数替换成功：{'_token': '7c84b3016638a945e6a6fdf943e2.G97Xu3RXmmGC_EOQoriX2xzeQJNdokhyF8mn4xo6Ep0.beihyDUf4yO1vzvb4_H6mUm4BqcPmitKUKXK23lyeuRKhrnZGgS3VNi7Fg', 'username': 'wrong', 'password': 'wrong'}
+2026-06-01 21:49:55,278 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:55,278 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:55,278 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:55,278 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '7c84b3016638a945e6a6fdf943e2.G97Xu3RXmmGC_EOQoriX2xzeQJNdokhyF8mn4xo6Ep0.beihyDUf4yO1vzvb4_H6mUm4BqcPmitKUKXK23lyeuRKhrnZGgS3VNi7Fg', 'username': 'wrong', 'password': 'wrong'} | json=None
+2026-06-01 21:49:55,393 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:55,393 - baseAutoHttp.py - INFO - 响应耗时: 0.052603s
+2026-06-01 21:49:55,393 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;b.AP_yxJYrA9u2mGg_gDi1oMruDJdPIrL4ke41ZCxaPqQ.dsmEt9djepmB2xB0wXHY4p-ISqMdGtHA1oJYXE8SVt1Rp5ym-Hgu7uzfPQ&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:55,393 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:49:55,393 - web_login_page.py - INFO - 【wrong/wrong】断言成功
+2026-06-01 21:49:55,393 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:55,393 - test_web_ohrm.py - INFO - 【错误用户名/密码】用例执行成功
+2026-06-01 21:49:55,401 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:55,456 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:49:55,457 - baseData.py - INFO - 动态参数替换成功：{'_token': 'c3e9c77c879128f35.kLB9VH4NzcRBquHZByn26CHDw17lIcdXbjfCJyCwJBk.0eRFMSkgh7J1xLCtUhq-mXKqsQfUR7Y1AAWWFBD-FkD91jwLMUH1lxb6rA', 'username': '', 'password': 'Keepmoving624.'}
+2026-06-01 21:49:55,458 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:55,458 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:55,458 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:55,458 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'c3e9c77c879128f35.kLB9VH4NzcRBquHZByn26CHDw17lIcdXbjfCJyCwJBk.0eRFMSkgh7J1xLCtUhq-mXKqsQfUR7Y1AAWWFBD-FkD91jwLMUH1lxb6rA', 'username': '', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:49:55,559 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:55,559 - baseAutoHttp.py - INFO - 响应耗时: 0.047364s
+2026-06-01 21:49:55,559 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;46c48.ZM46BxaQePZFyZXSaQzqngyQ5U4XQHz96DR5J-Iou-w.JZoCYkG9MoBxp8SmPD-i71_5lxcmJg2fhgYtFNJmibUJqHtYWdxApRKZ2A&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:55,559 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:49:55,560 - web_login_page.py - INFO - 【空用户名/Keepmoving624.】断言成功
+2026-06-01 21:49:55,560 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:55,560 - test_web_ohrm.py - INFO - 【用户名为空】用例执行成功
+2026-06-01 21:49:55,566 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:55,623 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:49:55,625 - baseData.py - INFO - 动态参数替换成功：{'_token': '5dd2669f5cc64.LA2ufdFg_pY87ifUb4dcy_Hr1OzASkep01RZwu7tlik.Z3rbSeYvssZlmBegBsAyiqKHu7yROS2QtDUaj73A3hhnVPY1hlXP2nK9RA', 'username': 'admin', 'password': ''}
+2026-06-01 21:49:55,625 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:55,625 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:49:55,626 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:49:55,626 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '5dd2669f5cc64.LA2ufdFg_pY87ifUb4dcy_Hr1OzASkep01RZwu7tlik.Z3rbSeYvssZlmBegBsAyiqKHu7yROS2QtDUaj73A3hhnVPY1hlXP2nK9RA', 'username': 'admin', 'password': ''} | json=None
+2026-06-01 21:49:55,907 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:55,907 - baseAutoHttp.py - INFO - 响应耗时: 0.048487s
+2026-06-01 21:49:55,907 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;6e0ac20ad18f.C9phEt30Szi_lvzZvgH11Sat2XxfZv_AfSUCLw6Nm_U.QK0UJuq7B2jm4Myt10ablHXBtiwOFZX5GkRBYl2g08RAgzlaisF6dPHFnw&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:49:55,907 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:49:55,907 - web_login_page.py - INFO - 【admin/空密码】断言成功
+2026-06-01 21:49:55,907 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:49:55,908 - test_web_ohrm.py - INFO - 【密码为空】用例执行成功
+2026-06-01 21:49:56,360 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:49:56,361 - conftest - INFO - ✅ conftest: 获取数据库连接（MysqlHelp）
+2026-06-01 21:49:56,362 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:56,860 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:56,940 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,015 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,116 - baseAutoHttp.py - INFO - 【03查询员工页面:select_employee】接口调用开始
+2026-06-01 21:49:57,119 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:49:57,119 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:49:57,119 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'}
+2026-06-01 21:49:57,119 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:49:57,227 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:57,228 - baseAutoHttp.py - INFO - 响应耗时: 0.106867s
+2026-06-01 21:49:57,228 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 2, 'lastName': 'oo', 'firstName': 'hh', 'middleName': '', 'employeeId': '0002', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 6, 'lastName': 'pp', 'firstName': 'kk', 'middleName': '', 'employeeId': '1002', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 14, 'lastName': 'll', 'firstName': 'kk', 'middleName': '', 'employeeId': '0014', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 16, 'lastName': 'pp', 'firstName': 'ww', 'middleName': '', 'employeeId': '0016', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 17, 'lastName': 'ss', 'firstName': 'zz', 'middleName': '', 'employeeId': '1009', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 1, 'lastName': '安', 'firstName': '谢', 'middleName': '', 'employeeId': '0001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 7}, 'rels': []}
+2026-06-01 21:49:57,228 - baseAutoHttp.py - INFO - 【03查询员工页面:select_employee】接口调用结束
+
+2026-06-01 21:49:57,228 - test_web_ohrm.py - INFO - ☑️ 查询员工列表成功，返回 7 条
+2026-06-01 21:49:57,233 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,233 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:49:57,235 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-06-01 21:49:57,235 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:49:57,236 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:49:57,236 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:49:57,236 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:49:57,330 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:57,331 - baseAutoHttp.py - INFO - 响应耗时: 0.093283s
+2026-06-01 21:49:57,331 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-06-01 21:49:57,331 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:49:57,331 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-06-01 21:49:57,337 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,337 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:49:57,339 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-06-01 21:49:57,339 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:49:57,339 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:49:57,339 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:49:57,340 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:49:57,413 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:57,413 - baseAutoHttp.py - INFO - 响应耗时: 0.072022s
+2026-06-01 21:49:57,413 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-01 21:49:57,413 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:49:57,413 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-06-01 21:49:57,419 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,440 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:49:57,443 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-06-01 21:49:57,445 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001'}
+2026-06-01 21:49:57,446 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-06-01 21:49:57,446 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-06-01 21:49:57,446 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-06-01 21:49:57,446 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-06-01 21:49:57,506 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-06-01 21:49:57,506 - baseAutoHttp.py - INFO - 响应耗时: 0.05815s
+2026-06-01 21:49:57,506 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-06-01 21:49:57,506 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-06-01 21:49:57,530 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:49:57,536 - baseDB.py - INFO - ✅ MySQL 执行成功，事务已提交
+2026-06-01 21:49:57,537 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-06-01 21:49:57,544 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:49:57,558 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,560 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,560 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:49:57,562 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '0004'}
+2026-06-01 21:49:57,562 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:49:57,562 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:49:57,562 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:49:57,563 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '0004', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:49:57,648 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:57,649 - baseAutoHttp.py - INFO - 响应耗时: 0.084846s
+2026-06-01 21:49:57,649 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-01 21:49:57,649 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:49:57,656 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:49:57,672 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,673 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,673 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:49:57,675 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-06-01 21:49:57,676 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:49:57,676 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:49:57,676 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:49:57,676 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:49:57,754 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:49:57,754 - baseAutoHttp.py - INFO - 响应耗时: 0.077418s
+2026-06-01 21:49:57,755 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-01 21:49:57,755 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:49:57,782 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:49:57,784 - test_web_ohrm.py - INFO - ☑️【删除员工】用例执行成功
+2026-06-01 21:49:57,790 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:57,790 - baseAutoHttp.py - INFO - 【06未登录访问员工接口:employee】接口调用开始
+2026-06-01 21:49:57,792 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:49:57,792 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList
+2026-06-01 21:49:57,792 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'}
+2026-06-01 21:49:57,792 - baseAutoHttp.py - INFO - 请求参数: params={'includeEmployees': 'onlyCurrent', 'limit': '50', 'model': 'detailed', 'offset': '0', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:49:57,832 - baseAutoHttp.py - INFO - 响应状态码: 302
+2026-06-01 21:49:57,832 - baseAutoHttp.py - INFO - 响应耗时: 0.037936s
+2026-06-01 21:49:57,832 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='http://127.0.0.1:8080/web/index.php/auth/login'" />
+
+        <title>Redirecting to http://127.0.0.1:8080/web/index.php/auth/login</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://127.0.0.1:8080/web/index.php/auth/login">http://127.0.0.1:8080/web/index.php/auth/login</a>.
+    </body>
+</html>
+2026-06-01 21:49:57,832 - baseAutoHttp.py - INFO - 【06未登录访问员工接口:employee】接口调用结束
+
+2026-06-01 21:49:58,222 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:49:58,222 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用开始
+2026-06-01 21:49:58,224 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'cc', 'lastName': 'dd', 'employeeId': '1010'}
+2026-06-01 21:49:58,224 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:49:58,224 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:49:58,224 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:8080', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/addEmployee'}
+2026-06-01 21:49:58,224 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'employeeId': '1010', 'empPicture': None, 'firstName': 'cc', 'lastName': 'dd', 'middleName': None}
+2026-06-01 21:49:58,293 - baseAutoHttp.py - INFO - 响应状态码: 403
+2026-06-01 21:49:58,293 - baseAutoHttp.py - INFO - 响应耗时: 0.067967s
+2026-06-01 21:49:58,293 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': 403, 'message': 'Unauthorized'}}
+2026-06-01 21:49:58,293 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用结束
+
+2026-06-01 21:49:58,294 - test_web_ohrm.py - INFO - ☑️【非管理员账号操作员工】用例执行成功
+2026-06-01 21:50:01,152 - runClient.py - INFO - ✅ Allure报告生成完成：E:\develop\PythonProject\OrangeHRM\Reports\ALLURE\Report
+2026-06-01 21:50:01,153 - runClient.py - INFO - ✅ 报告查看器已生成：E:\develop\PythonProject\OrangeHRM\Reports\ALLURE\Report\双击查看报告.bat
+2026-06-01 21:50:01,279 - runClient.py - INFO - ✅ 报告压缩包已生成：E:\develop\PythonProject\OrangeHRM\Reports\ALLURE\allure_report.zip
+2026-06-01 21:50:01,294 - baseUtils.py - INFO - 目录文件清空完成：E:\develop\PythonProject\OrangeHRM\Reports\ALLURE\Result
+2026-06-01 21:50:01,295 - runClient.py - INFO - 🎉 自动化测试执行完毕！
+2026-06-01 21:54:13,441 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:13,441 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:54:14,217 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:14,218 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:54:14,231 - runClient.py - INFO - 🔍 正在收集测试用例，请稍候...
+2026-06-01 21:54:14,974 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:14,974 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:54:15,212 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,373 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,374 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,644 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,645 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-06-01 21:54:15,646 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,648 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-06-01 21:54:15,649 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,650 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-06-01 21:54:15,651 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:15,652 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-06-01 21:54:15,659 - baseYaml.py - INFO - YAML写入成功：E:\develop\PythonProject\OrangeHRM\Data\Temp\tempcases.yaml
+2026-06-01 21:54:15,659 - conftest.py - INFO - ✅ 用例信息已导出：E:\develop\PythonProject\OrangeHRM\Data\Temp\tempcases.yaml
+2026-06-01 21:54:16,072 - runClient.py - INFO - ✅ 用例收集完成，启动用例选择器
+2026-06-01 21:54:16,807 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:16,807 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-06-01 21:54:24,872 - baseYaml.py - INFO - YAML写入成功：E:\develop\PythonProject\OrangeHRM\Data\Temp\testcases.yaml
+2026-06-01 21:54:24,872 - caseSelector.py - INFO - 用例导出成功：E:\develop\PythonProject\OrangeHRM\Data\Temp\testcases.yaml
+2026-06-01 21:54:25,708 - runClient.py - INFO - 🚀 开始执行选中用例，共 18 条
+2026-06-01 21:54:26,001 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,202 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,204 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,464 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,466 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-06-01 21:54:26,469 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,470 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-06-01 21:54:26,472 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,473 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-06-01 21:54:26,475 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,476 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-06-01 21:54:26,489 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:26,676 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:54:26,677 - baseData.py - INFO - 动态参数替换成功：{'_token': '794239598e947.7I2zAP0gpsZ2ugUaU4R7JVl7T-lnstoCvD4pYjnE1w0.r9z3Q4VxloM-1HNoFNsxZy8RNaQC4Ypv-3tsF2iRr2-O-9ZwiHX8sCWCbg', 'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:54:26,677 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:26,677 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:26,677 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:26,678 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '794239598e947.7I2zAP0gpsZ2ugUaU4R7JVl7T-lnstoCvD4pYjnE1w0.r9z3Q4VxloM-1HNoFNsxZy8RNaQC4Ypv-3tsF2iRr2-O-9ZwiHX8sCWCbg', 'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:54:27,186 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:27,186 - baseAutoHttp.py - INFO - 响应耗时: 0.136023s
+2026-06-01 21:54:27,187 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+    <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+  <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+  <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+  <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+  <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+  <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+  <noscript>
+    <strong>
+      We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+    </strong>
+  </noscript>
+
+  <div id="app">
+    <oxd-layout
+        home-url="https://www.orangehrm.com/"
+        :sidepanel-menu-items="[{&quot;id&quot;:1,&quot;name&quot;:&quot;\u7ba1\u7406\u5458&quot;,&quot;url&quot;:&quot;\/web\/index.php\/admin\/viewAdminModule&quot;,&quot;icon&quot;:&quot;admin&quot;},{&quot;id&quot;:30,&quot;name&quot;:&quot;\u4e2a\u4eba\u4fe1\u606f\u7ba1\u7406\u7cfb\u7edf&quot;,&quot;url&quot;:&quot;\/web\/index.php\/pim\/viewPimModule&quot;,&quot;icon&quot;:&quot;pim&quot;},{&quot;id&quot;:41,&quot;name&quot;:&quot;\u4f11\u5047&quot;,&quot;url&quot;:&quot;\/web\/index.php\/leave\/viewLeaveModule&quot;,&quot;icon&quot;:&quot;leave&quot;},{&quot;id&quot;:52,&quot;name&quot;:&quot;\u65f6\u95f4&quot;,&quot;url&quot;:&quot;\/web\/index.php\/time\/viewTimeModule&quot;,&quot;icon&quot;:&quot;time&quot;},{&quot;id&quot;:65,&quot;name&quot;:&quot;\u62db\u8058&quot;,&quot;url&quot;:&quot;\/web\/index.php\/recruitment\/viewRecruitmentModule&quot;,&quot;icon&quot;:&quot;recruitment&quot;},{&quot;id&quot;:40,&quot;name&quot;:&quot;\u6211\u7684\u4fe1\u606f&quot;,&quot;url&quot;:&quot;\/web\/index.php\/pim\/viewMyDetails&quot;,&quot;icon&quot;:&quot;myinfo&quot;},{&quot;id&quot;:83,&quot;name&quot;:&quot;\u7ee9\u6548&quot;,&quot;url&quot;:&quot;\/web\/index.php\/performance\/viewPerformanceModule&quot;,&quot;icon&quot;:&quot;performance&quot;},{&quot;id&quot;:82,&quot;name&quot;:&quot;\u4eea\u8868\u76d8&quot;,&quot;url&quot;:&quot;\/web\/index.php\/dashboard\/index&quot;,&quot;icon&quot;:&quot;dashboard&quot;,&quot;active&quot;:true},{&quot;id&quot;:93,&quot;name&quot;:&quot;Directory&quot;,&quot;url&quot;:&quot;\/web\/index.php\/directory\/viewDirectory&quot;,&quot;icon&quot;:&quot;directory&quot;},{&quot;id&quot;:96,&quot;name&quot;:&quot;Maintenance&quot;,&quot;url&quot;:&quot;\/web\/index.php\/maintenance\/viewMaintenanceModule&quot;,&quot;icon&quot;:&quot;maintenance&quot;},{&quot;id&quot;:105,&quot;name&quot;:&quot;Claim&quot;,&quot;url&quot;:&quot;\/web\/index.php\/claim\/viewClaimModule&quot;,&quot;icon&quot;:&quot;claim&quot;},{&quot;id&quot;:101,&quot;name&quot;:&quot;\u6fc0\u52a8&quot;,&quot;url&quot;:&quot;\/web\/index.php\/buzz\/viewBuzz&quot;,&quot;icon&quot;:&quot;buzz&quot;}]"
+        :topbar-menu-items="[]"
+        :user="{&quot;firstName&quot;:&quot;\u8c22&quot;,&quot;lastName&quot;:&quot;\u5b89&quot;,&quot;profImgSrc&quot;:&quot;\/web\/index.php\/pim\/viewPhoto\/empNumber\/1&quot;,&quot;hasPassword&quot;:true}"
+        brand-logo-src="/web/images/orange.png?v=1775433284510"
+        brand-banner-src="/web/images/orangehrm-logo.png?v=1775433284510"
+        logout-url="/web/index.php/auth/logout"
+        support-url="/web/index.php/help/support"
+        :update-password-url="&quot;/web/index.php/pim/updatePassword&quot;"
+        :permissions="{&quot;dashboard_buzz_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_employees_on_leave_today_config&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:true,&quot;canDelete&quot;:false},&quot;dashboard_leave_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_location_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_subunit_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false},&quot;dashboard_time_widget&quot;:{&quot;canRead&quot;:true,&quot;canCreate&quot;:false,&quot;canUpdate&quot;:false,&quot;canDelete&quot;:false}}"
+        :breadcrumb="{&quot;moduleName&quot;:&quot;\u4eea\u8868\u76d8&quot;,&quot;level&quot;:null}"
+        :date-format="{&quot;id&quot;:&quot;Y-m-d&quot;,&quot;label&quot;:&quot;yyyy-mm-dd&quot;}"
+        help-url="/web/index.php/help/help?label=dashboard_index"
+        :show-upgrade="1"
+    >
+      <view-dashboard
+            >
+    </view-dashboard>
+    <template v-slot:footer><oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+<br></template>
+    </oxd-layout>
+  </div>
+  <script type="text/javascript">
+      window.appGlobal = {
+        baseUrl: "/web/index.php",
+        publicPath: "/web",
+      };
+  </script>
+  <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+  <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:27,187 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:54:27,187 - web_login_page.py - INFO - 【管理员正常登录】断言成功
+2026-06-01 21:54:27,188 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:27,188 - test_web_ohrm.py - INFO - 【管理员正常登录】用例执行成功
+2026-06-01 21:54:27,195 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:27,259 - baseAutoHttp.py - INFO - 【02登录页面未携带token:login_not_token_api】接口调用开始
+2026-06-01 21:54:27,261 - baseData.py - INFO - 动态参数替换成功：{'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:54:27,262 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:27,262 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:27,262 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:27,262 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:54:27,374 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:27,374 - baseAutoHttp.py - INFO - 响应耗时: 0.066044s
+2026-06-01 21:54:27,374 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_csrf_token&quot;,&quot;message&quot;:&quot;CSRF token validation failed&quot;}"
+            :token="&quot;8fd0ca5579.SaLmVdZHFENTXOCqcpWT6ShW7PdQLEbZkE3vupCs3mg.A-6kB-8gfzQdOI_lR_Hmh0EZicdjHRW62zm8-PXGvwAM49YQpypHD2QSlw&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:27,374 - baseAutoHttp.py - INFO - 【02登录页面未携带token:login_not_token_api】接口调用结束
+
+2026-06-01 21:54:27,374 - web_login_page.py - INFO - 【未携带CSRF令牌】断言成功
+2026-06-01 21:54:27,374 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:27,374 - test_web_ohrm.py - INFO - 【未携带CSRF令牌】用例执行成功
+2026-06-01 21:54:27,380 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:27,491 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:54:27,493 - baseData.py - INFO - 动态参数替换成功：{'_token': 'cbcc6311e9.CZ2hc2WDYWSpzoiWIZo1M4gUFc3o2H4bfc4dO1TQxYE.U-ruHgLmKjLHoL35ZchHQbBSfqPaoQdwHopJDxiVltNlzu0JIfMPCcK7-w', 'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:54:27,493 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:27,493 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:27,493 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:27,493 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'cbcc6311e9.CZ2hc2WDYWSpzoiWIZo1M4gUFc3o2H4bfc4dO1TQxYE.U-ruHgLmKjLHoL35ZchHQbBSfqPaoQdwHopJDxiVltNlzu0JIfMPCcK7-w', 'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:54:27,580 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:27,581 - baseAutoHttp.py - INFO - 响应耗时: 0.046462s
+2026-06-01 21:54:27,581 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_csrf_token&quot;,&quot;message&quot;:&quot;CSRF token validation failed&quot;}"
+            :token="&quot;00eb180a7c68e.DIH3BU-HUUpZTYtDzWpBe3aSPMw_NY-Otc3xxc7WClU.XvumaRa_OCs6G90PjA4qVjHGSYBYU9ve3qKD_YKiTBtW6a9mJ9IYfzsA2g&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:27,581 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:54:27,581 - web_login_page.py - INFO - 【跨会话使用Token】断言成功
+2026-06-01 21:54:27,581 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:27,581 - test_web_ohrm.py - INFO - 【携带过期CSRF令牌】用例执行成功
+2026-06-01 21:54:27,591 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:27,591 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:54:27,593 - baseData.py - INFO - 动态参数替换成功：{'_token': 'c2leQ&n%POtD6$&EBnhd', 'username': 'admin', 'password': 'Keepmoving624.'}
+2026-06-01 21:54:27,593 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:27,593 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:27,593 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:27,593 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'c2leQ&n%POtD6$&EBnhd', 'username': 'admin', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:54:27,729 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:27,729 - baseAutoHttp.py - INFO - 响应耗时: 0.073621s
+2026-06-01 21:54:27,729 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_csrf_token&quot;,&quot;message&quot;:&quot;CSRF token validation failed&quot;}"
+            :token="&quot;58dd8be857255026e98d4.tLVdy_inW_PB9-QX7nD4qWAkghOSbEDAWXSKNUp4LK0.4-wIqIjiaaCyx7BVgwOM3RBnyHymO3CDaDLcdwdLQueN3zSDq90EgY--pQ&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:27,729 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:54:27,730 - web_login_page.py - INFO - 【携带错误格式Token】断言成功
+2026-06-01 21:54:27,730 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:27,730 - test_web_ohrm.py - INFO - 【携带错误格式Token】用例执行成功
+2026-06-01 21:54:27,738 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:27,792 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:54:27,794 - baseData.py - INFO - 动态参数替换成功：{'_token': '53f252bc4c72c5.TTKLGp5BtTnJDCHhueVzf6f4p8Z7_7c5jSFvAsLeS70.P3HNRfgm23-7TliT4dNeB8Wvxo06su9f3E1ZTbqOE8QdBLNg8CvEdK1ZZA', 'username': 'wrong', 'password': 'wrong'}
+2026-06-01 21:54:27,794 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:27,794 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:27,795 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:27,795 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '53f252bc4c72c5.TTKLGp5BtTnJDCHhueVzf6f4p8Z7_7c5jSFvAsLeS70.P3HNRfgm23-7TliT4dNeB8Wvxo06su9f3E1ZTbqOE8QdBLNg8CvEdK1ZZA', 'username': 'wrong', 'password': 'wrong'} | json=None
+2026-06-01 21:54:27,897 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:27,898 - baseAutoHttp.py - INFO - 响应耗时: 0.06141s
+2026-06-01 21:54:27,898 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;e831fd492c0951fae4b85f886.GIEKSgnJXViCaottQwdVTGJvAOUDhQ5ieMKCOD6HGCo.asJMFW-uMx7wKPIfGzF4NAA4Ya5CyFYEKa60d0bXQFNItzIwZ6MsFeY_zg&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:27,898 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:54:27,898 - web_login_page.py - INFO - 【wrong/wrong】断言成功
+2026-06-01 21:54:27,898 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:27,898 - test_web_ohrm.py - INFO - 【错误用户名/密码】用例执行成功
+2026-06-01 21:54:27,905 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:27,961 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:54:27,963 - baseData.py - INFO - 动态参数替换成功：{'_token': '82f.Aqmv7WZYtGWEAfJNlaBD5-K3VIa6ZpXiMyoova6YdLo.NsrNuxctwjfOeJ482OkmhYGFbbT7MLiOQEBu3-DzDfhv48aKBBLxKfxNsw', 'username': '', 'password': 'Keepmoving624.'}
+2026-06-01 21:54:27,963 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:27,964 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:27,964 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:27,964 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': '82f.Aqmv7WZYtGWEAfJNlaBD5-K3VIa6ZpXiMyoova6YdLo.NsrNuxctwjfOeJ482OkmhYGFbbT7MLiOQEBu3-DzDfhv48aKBBLxKfxNsw', 'username': '', 'password': 'Keepmoving624.'} | json=None
+2026-06-01 21:54:28,067 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:28,068 - baseAutoHttp.py - INFO - 响应耗时: 0.063582s
+2026-06-01 21:54:28,068 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;9a15daea391fe1fa827d3eff2523c59.HsHyNdU55zvrMT0BSTRg0QBVgkDWf43v_bZiZKSM3ZE.KqKQY6RMkWmhSFFwBH0Fs2Nnu3KXKaCDjtwkBurnpNNzi5tSt3Oid5N9fA&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:28,068 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:54:28,068 - web_login_page.py - INFO - 【空用户名/Keepmoving624.】断言成功
+2026-06-01 21:54:28,068 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:28,068 - test_web_ohrm.py - INFO - 【用户名为空】用例执行成功
+2026-06-01 21:54:28,076 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:28,128 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用开始
+2026-06-01 21:54:28,129 - baseData.py - INFO - 动态参数替换成功：{'_token': 'e74d9.hNVWNE14v2FcmuVC3VfGifCNtbJmXf0ytJkSGadmTdo.teVhcSMR6xdo08gr7y2XsMC42cYhOJJ8jMpDUMsNCev9jDwGOif9BRvOvA', 'username': 'admin', 'password': ''}
+2026-06-01 21:54:28,129 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:28,130 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/auth/validate
+2026-06-01 21:54:28,130 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded'}
+2026-06-01 21:54:28,130 - baseAutoHttp.py - INFO - 请求参数: params=None | data={'_token': 'e74d9.hNVWNE14v2FcmuVC3VfGifCNtbJmXf0ytJkSGadmTdo.teVhcSMR6xdo08gr7y2XsMC42cYhOJJ8jMpDUMsNCev9jDwGOif9BRvOvA', 'username': 'admin', 'password': ''} | json=None
+2026-06-01 21:54:28,408 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:28,408 - baseAutoHttp.py - INFO - 响应耗时: 0.053965s
+2026-06-01 21:54:28,409 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OrangeHRM</title>
+      <link rel="icon" href="/web/dist/favicon.ico?v=1775433284510">
+    <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="preload" as="style">
+    <link href="/web/dist/js/chunk-vendors.js?v=1775433284510" rel="preload" as="script">
+    <link href="/web/dist/js/app.js?v=1775433284510" rel="preload" as="script">
+      <link href="/web/dist/css/chunk-vendors.css?v=1775433284510" rel="stylesheet"/>
+    <link href="/web/dist/css/app.css?v=1775433284510" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  </style>
+    <noscript>
+        <strong>
+            We're sorry but orangehrm doesn't work properly without JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <div id="app">
+    <auth-login
+            :error="{&quot;error&quot;:&quot;invalid_credentials&quot;,&quot;message&quot;:&quot;Invalid credentials&quot;}"
+            :token="&quot;0c03c3847892965d9db78015c.ON0AdUce536AWs3Ujdq5y5qqfsn1Krc87n6x3PxprRM.Ce03MCl3swi0E-C9v6Do8qqfEr2yT9hy1i3glZAC6SJBhGpHMEGlGscOlA&quot;"
+            :login-logo-src="&quot;\/web\/images\/ohrm_logo.png&quot;"
+            :login-banner-src="&quot;\/web\/images\/ohrm_branding.png?v=1775433284510&quot;"
+            :show-social-media="true"
+            :is-demo-mode="false"
+            :authenticators="[]"
+        >
+    <template v-slot:footer>
+        <div class="orangehrm-copyright-wrapper">
+            <oxd-text tag="p" class="orangehrm-copyright">OrangeHRM OS 5.8.1</oxd-text>
+<oxd-text tag="p" class="orangehrm-copyright">&copy; 2005 - 2026 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.</oxd-text>
+        </div>
+    </template>
+    </auth-login>
+    </div>
+    <script type="text/javascript">
+        window.appGlobal = {
+          baseUrl: "/web/index.php",
+          publicPath: "/web",
+        };
+    </script>
+    <script src="/web/dist/js/chunk-vendors.js?v=1775433284510"></script>
+    <script src="/web/dist/js/app.js?v=1775433284510"></script>
+</body>
+</html>
+
+2026-06-01 21:54:28,409 - baseAutoHttp.py - INFO - 【01登录页面接口信息:login_api】接口调用结束
+
+2026-06-01 21:54:28,409 - web_login_page.py - INFO - 【admin/空密码】断言成功
+2026-06-01 21:54:28,410 - baseAutoHttp.py - INFO - 接口会话已关闭
+2026-06-01 21:54:28,410 - test_web_ohrm.py - INFO - 【密码为空】用例执行成功
+2026-06-01 21:54:28,906 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:54:28,906 - conftest - INFO - ✅ conftest: 获取数据库连接（MysqlHelp）
+2026-06-01 21:54:28,908 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,395 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,464 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,531 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,621 - baseAutoHttp.py - INFO - 【03查询员工页面:select_employee】接口调用开始
+2026-06-01 21:54:29,624 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:54:29,624 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:54:29,624 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'}
+2026-06-01 21:54:29,624 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:54:29,703 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:29,703 - baseAutoHttp.py - INFO - 响应耗时: 0.077421s
+2026-06-01 21:54:29,703 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 2, 'lastName': 'oo', 'firstName': 'hh', 'middleName': '', 'employeeId': '0002', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 6, 'lastName': 'pp', 'firstName': 'kk', 'middleName': '', 'employeeId': '1002', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 14, 'lastName': 'll', 'firstName': 'kk', 'middleName': '', 'employeeId': '0014', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 16, 'lastName': 'pp', 'firstName': 'ww', 'middleName': '', 'employeeId': '0016', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 17, 'lastName': 'ss', 'firstName': 'zz', 'middleName': '', 'employeeId': '1009', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}, {'empNumber': 1, 'lastName': '安', 'firstName': '谢', 'middleName': '', 'employeeId': '0001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 7}, 'rels': []}
+2026-06-01 21:54:29,703 - baseAutoHttp.py - INFO - 【03查询员工页面:select_employee】接口调用结束
+
+2026-06-01 21:54:29,704 - test_web_ohrm.py - INFO - ☑️ 查询员工列表成功，返回 7 条
+2026-06-01 21:54:29,710 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,711 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:54:29,713 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-06-01 21:54:29,713 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:54:29,713 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:54:29,713 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:54:29,713 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:54:29,796 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:29,796 - baseAutoHttp.py - INFO - 响应耗时: 0.08118s
+2026-06-01 21:54:29,796 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-06-01 21:54:29,796 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:54:29,796 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-06-01 21:54:29,803 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,804 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:54:29,806 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-06-01 21:54:29,806 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:54:29,806 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:54:29,806 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:54:29,806 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:54:29,883 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:29,883 - baseAutoHttp.py - INFO - 响应耗时: 0.076041s
+2026-06-01 21:54:29,884 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-01 21:54:29,884 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:54:29,884 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-06-01 21:54:29,891 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:29,899 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:54:29,901 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-06-01 21:54:29,903 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001'}
+2026-06-01 21:54:29,903 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-06-01 21:54:29,904 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-06-01 21:54:29,904 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-06-01 21:54:29,904 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-06-01 21:54:29,978 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-06-01 21:54:29,978 - baseAutoHttp.py - INFO - 响应耗时: 0.073387s
+2026-06-01 21:54:29,978 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-06-01 21:54:29,978 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-06-01 21:54:29,985 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:54:29,990 - baseDB.py - INFO - ✅ MySQL 执行成功，事务已提交
+2026-06-01 21:54:29,990 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-06-01 21:54:29,997 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:54:30,013 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:30,014 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:30,014 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:54:30,017 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '0004'}
+2026-06-01 21:54:30,017 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:54:30,017 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:54:30,017 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:54:30,017 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '0004', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:54:30,073 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:30,073 - baseAutoHttp.py - INFO - 响应耗时: 0.05416s
+2026-06-01 21:54:30,073 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-01 21:54:30,073 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:54:30,081 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:54:30,097 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:30,098 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:30,099 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 21:54:30,101 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-06-01 21:54:30,101 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:54:30,101 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:54:30,101 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 21:54:30,101 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:54:30,182 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 21:54:30,182 - baseAutoHttp.py - INFO - 响应耗时: 0.079568s
+2026-06-01 21:54:30,182 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-01 21:54:30,182 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 21:54:30,189 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-01 21:54:30,191 - test_web_ohrm.py - INFO - ☑️【删除员工】用例执行成功
+2026-06-01 21:54:30,198 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:30,198 - baseAutoHttp.py - INFO - 【06未登录访问员工接口:employee】接口调用开始
+2026-06-01 21:54:30,200 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 21:54:30,200 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList
+2026-06-01 21:54:30,200 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'}
+2026-06-01 21:54:30,200 - baseAutoHttp.py - INFO - 请求参数: params={'includeEmployees': 'onlyCurrent', 'limit': '50', 'model': 'detailed', 'offset': '0', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 21:54:30,254 - baseAutoHttp.py - INFO - 响应状态码: 302
+2026-06-01 21:54:30,254 - baseAutoHttp.py - INFO - 响应耗时: 0.052722s
+2026-06-01 21:54:30,254 - baseAutoHttp.py - INFO - 响应文本: <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='http://127.0.0.1:8080/web/index.php/auth/login'" />
+
+        <title>Redirecting to http://127.0.0.1:8080/web/index.php/auth/login</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://127.0.0.1:8080/web/index.php/auth/login">http://127.0.0.1:8080/web/index.php/auth/login</a>.
+    </body>
+</html>
+2026-06-01 21:54:30,254 - baseAutoHttp.py - INFO - 【06未登录访问员工接口:employee】接口调用结束
+
+2026-06-01 21:54:30,661 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 21:54:30,661 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用开始
+2026-06-01 21:54:30,663 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'cc', 'lastName': 'dd', 'employeeId': '1010'}
+2026-06-01 21:54:30,663 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-01 21:54:30,663 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 21:54:30,663 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:8080', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/addEmployee'}
+2026-06-01 21:54:30,663 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'employeeId': '1010', 'empPicture': None, 'firstName': 'cc', 'lastName': 'dd', 'middleName': None}
+2026-06-01 21:54:30,735 - baseAutoHttp.py - INFO - 响应状态码: 403
+2026-06-01 21:54:30,736 - baseAutoHttp.py - INFO - 响应耗时: 0.071312s
+2026-06-01 21:54:30,736 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': 403, 'message': 'Unauthorized'}}
+2026-06-01 21:54:30,736 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用结束
+
+2026-06-01 21:54:30,736 - test_web_ohrm.py - INFO - ☑️【非管理员账号操作员工】用例执行成功
+2026-06-01 21:54:33,199 - runClient.py - INFO - ✅ Allure报告生成完成：E:\develop\PythonProject\OrangeHRM\Reports\ALLURE\Report
+2026-06-01 21:54:33,225 - baseUtils.py - INFO - 目录文件清空完成：E:\develop\PythonProject\OrangeHRM\Reports\ALLURE\Result
+2026-06-01 21:54:33,225 - runClient.py - INFO - 🎉 自动化测试执行完毕！

@@ -1,0 +1,18 @@
+update_employee:
+  method: put
+  url: web/index.php/api/v2/pim/employees/5/personal-details
+  headers:
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+    Content-Type: application/json
+    Referer: http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5
+    Origin: http://127.0.0.1:8080
+  json:
+    birthday: null
+    drivingLicenseExpiredDate: null
+    drivingLicenseNo:
+    employeeId: "${employeeId}"
+    firstName: "${firstName}"
+    gender: null
+    lastName: "${lastName}"
+    middleName:
+    otherId:

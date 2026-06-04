@@ -1,0 +1,74 @@
+2026-05-31 21:07:24,182 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:24,183 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 21:07:24,896 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:24,897 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:25,278 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:25,279 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 21:07:25,280 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:25,282 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 21:07:25,283 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:25,284 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 21:07:25,285 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:25,286 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-05-31 21:07:25,744 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:07:25,745 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用开始
+2026-05-31 21:07:25,746 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'cc', 'lastName': 'dd', 'employeeId': '1010'}
+2026-05-31 21:07:25,746 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-05-31 21:07:25,746 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-31 21:07:25,746 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:8080', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/addEmployee'}
+2026-05-31 21:07:25,746 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'employeeId': '1010', 'empPicture': None, 'firstName': 'cc', 'lastName': 'dd', 'middleName': None}
+2026-05-31 21:07:25,803 - baseAutoHttp.py - INFO - 响应状态码: 403
+2026-05-31 21:07:25,803 - baseAutoHttp.py - INFO - 响应耗时: 0.05483s
+2026-05-31 21:07:25,803 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': 403, 'message': 'Unauthorized'}}
+2026-05-31 21:07:25,803 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用结束
+
+2026-05-31 21:07:25,803 - test_web_ohrm.py - INFO - ☑️【非管理员账号操作员工】用例执行成功
+2026-05-31 21:08:39,965 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:39,966 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 21:08:40,131 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,132 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,412 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,414 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 21:08:40,415 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,416 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 21:08:40,417 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,418 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 21:08:40,419 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,420 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-05-31 21:08:40,857 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:08:40,858 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用开始
+2026-05-31 21:08:40,859 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'cc', 'lastName': 'dd', 'employeeId': '1010'}
+2026-05-31 21:08:40,859 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-05-31 21:08:40,860 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-31 21:08:40,860 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:8080', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/addEmployee'}
+2026-05-31 21:08:40,860 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'employeeId': '1010', 'empPicture': None, 'firstName': 'cc', 'lastName': 'dd', 'middleName': None}
+2026-05-31 21:08:40,914 - baseAutoHttp.py - INFO - 响应状态码: 403
+2026-05-31 21:08:40,914 - baseAutoHttp.py - INFO - 响应耗时: 0.053351s
+2026-05-31 21:08:40,914 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': 403, 'message': 'Unauthorized'}}
+2026-05-31 21:08:40,914 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用结束
+
+2026-05-31 21:09:17,032 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,033 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 21:09:17,185 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,186 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,483 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,485 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 21:09:17,486 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,487 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 21:09:17,488 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,489 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 21:09:17,490 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,491 - baseData.py - INFO - 数据驱动读取成功：04删除员工
+2026-05-31 21:09:17,922 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 21:09:17,923 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用开始
+2026-05-31 21:09:17,925 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'cc', 'lastName': 'dd', 'employeeId': '1010'}
+2026-05-31 21:09:17,925 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-05-31 21:09:17,925 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-31 21:09:17,925 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:8080', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/addEmployee'}
+2026-05-31 21:09:17,925 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'employeeId': '1010', 'empPicture': None, 'firstName': 'cc', 'lastName': 'dd', 'middleName': None}
+2026-05-31 21:09:17,981 - baseAutoHttp.py - INFO - 响应状态码: 403
+2026-05-31 21:09:17,982 - baseAutoHttp.py - INFO - 响应耗时: 0.054206s
+2026-05-31 21:09:17,982 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': 403, 'message': 'Unauthorized'}}
+2026-05-31 21:09:17,982 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用结束
+
+2026-05-31 21:09:17,982 - test_web_ohrm.py - INFO - ☑️【非管理员账号操作员工】用例执行成功

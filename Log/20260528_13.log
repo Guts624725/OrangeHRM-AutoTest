@@ -1,0 +1,51 @@
+2026-05-28 13:41:52,134 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:41:52,134 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 13:41:53,179 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:41:53,181 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-28 13:41:53,183 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:41:53,184 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-28 13:41:53,190 - conftest.py - ERROR - ❌ 启动浏览器失败：Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2026-05-28 13:43:08,987 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:43:08,988 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 13:43:09,236 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:43:09,237 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-28 13:43:09,238 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:43:09,239 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-28 13:43:09,247 - conftest.py - ERROR - ❌ 启动浏览器失败：Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2026-05-28 13:44:23,261 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:23,262 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-28 13:44:23,550 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:23,552 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-28 13:44:23,553 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:23,554 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-28 13:44:24,982 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-28 13:44:24,985 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:24,986 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-28 13:44:24,988 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:30,828 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-28 13:44:42,841 - baseAutoWeb.py - ERROR - 元素定位失败：('xpath', "//p[@class='oxd-userdropdown-name' and contains(.,'安 谢')]")
+2026-05-28 13:44:45,749 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-28 13:44:46,914 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-28 13:44:46,917 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:46,917 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-28 13:44:46,918 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:52,340 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-28 13:44:55,283 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-28 13:44:56,428 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-28 13:44:56,431 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:44:56,431 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-28 13:44:56,432 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:45:01,650 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-28 13:45:01,695 - 01登录页面元素信息.yaml - INFO - ✅ 空账号密码断言通过
+2026-05-28 13:45:01,695 - test_web_ohrm.py - INFO - ✅ 登录用例执行完成，断言标识：3
+2026-05-28 13:45:03,911 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-28 13:45:05,072 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-28 13:45:05,074 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:45:05,075 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-28 13:45:05,076 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-28 13:45:10,363 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-28 13:45:10,808 - 01登录页面元素信息.yaml - INFO - ✅ 小写密码错误断言通过
+2026-05-28 13:45:10,808 - test_web_ohrm.py - INFO - ✅ 登录用例执行完成，断言标识：4
+2026-05-28 13:45:13,023 - conftest.py - INFO - ✅ 浏览器驱动已退出

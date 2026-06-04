@@ -1,0 +1,112 @@
+2026-05-31 12:37:25,510 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:25,511 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 12:37:27,018 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:27,019 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:28,007 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:28,010 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 12:37:28,011 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:28,013 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 12:37:28,014 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:28,015 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 12:37:29,317 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:37:29,317 - conftest - INFO - ✅ conftest: 获取数据库连接（MysqlHelp）
+2026-05-31 12:37:29,319 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:37:29,349 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:37:29,352 - baseDB.py - INFO - 📊 MySQL 查询成功，返回行数：1
+2026-05-31 12:37:29,352 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-05-31 12:37:29,352 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-05-31 12:37:29,354 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001'}
+2026-05-31 12:37:29,354 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-05-31 12:37:29,354 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-05-31 12:37:29,354 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-05-31 12:37:29,354 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-05-31 12:37:29,497 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-05-31 12:37:29,497 - baseAutoHttp.py - INFO - 响应耗时: 0.14136s
+2026-05-31 12:37:29,497 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-05-31 12:37:29,497 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-05-31 12:37:29,506 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:37:29,510 - baseDB.py - INFO - 📊 MySQL 查询成功，返回行数：0
+2026-05-31 12:37:29,511 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-05-31 12:38:14,821 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:14,822 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 12:38:14,976 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:14,978 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:15,262 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:15,264 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 12:38:15,265 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:15,266 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 12:38:15,267 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:15,268 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 12:38:16,116 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:38:16,116 - conftest - INFO - ✅ conftest: 获取数据库连接（MysqlHelp）
+2026-05-31 12:38:16,118 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:38:16,150 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:38:16,153 - baseDB.py - INFO - 📊 MySQL 查询成功，返回行数：1
+2026-05-31 12:38:16,153 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-05-31 12:38:16,153 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-05-31 12:38:16,155 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001'}
+2026-05-31 12:38:16,155 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-05-31 12:38:16,155 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-05-31 12:38:16,155 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-05-31 12:38:16,155 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-05-31 12:38:16,274 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-05-31 12:38:16,274 - baseAutoHttp.py - INFO - 响应耗时: 0.117503s
+2026-05-31 12:38:16,274 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-05-31 12:38:16,274 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-05-31 12:38:16,282 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:38:16,286 - baseDB.py - INFO - 📊 MySQL 查询成功，返回行数：0
+2026-05-31 12:38:16,286 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-05-31 12:51:31,748 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:31,748 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 12:51:31,903 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:31,904 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:32,165 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:32,168 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 12:51:32,169 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:32,170 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 12:51:32,171 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:32,173 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 12:51:32,814 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:51:32,815 - conftest - INFO - ✅ conftest: 获取数据库连接（MysqlHelp）
+2026-05-31 12:51:32,817 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:51:32,840 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:51:32,843 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-05-31 12:51:32,845 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001'}
+2026-05-31 12:51:32,845 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-05-31 12:51:32,845 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-05-31 12:51:32,845 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-05-31 12:51:32,845 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-05-31 12:51:32,941 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-05-31 12:51:32,942 - baseAutoHttp.py - INFO - 响应耗时: 0.094834s
+2026-05-31 12:51:32,942 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-05-31 12:51:32,942 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-05-31 12:51:32,949 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:54:42,384 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:42,384 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-31 12:54:42,568 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:42,569 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:42,851 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:42,855 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-31 12:54:42,856 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:42,858 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-31 12:54:42,859 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:42,860 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-31 12:54:43,471 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:54:43,471 - conftest - INFO - ✅ conftest: 获取数据库连接（MysqlHelp）
+2026-05-31 12:54:43,473 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-31 12:54:43,505 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-31 12:54:43,508 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-05-31 12:54:43,510 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001'}
+2026-05-31 12:54:43,510 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-05-31 12:54:43,510 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-05-31 12:54:43,510 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-05-31 12:54:43,510 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-05-31 12:54:43,593 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-05-31 12:54:43,593 - baseAutoHttp.py - INFO - 响应耗时: 0.080992s
+2026-05-31 12:54:43,593 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-05-31 12:54:43,593 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-05-31 12:54:43,601 - baseDB.py - INFO - ✅ MySQL 数据库连接成功

@@ -1,0 +1,22 @@
+TestSuits/ohrm_http_test/test_http_ohrm.py::TestCase01:
+  comment: 管理员正常登录
+  test_login_case01: 无描述
+  test_login_case02: 无描述
+  test_login_case03: 无描述
+  test_login_case04: 无描述
+  test_login_case05[test_case0]: 无描述
+  test_login_case05[test_case1]: 无描述
+  test_login_case05[test_case2]: 无描述
+TestSuits/ohrm_http_test/test_http_ohrm.py::TestEmployee:
+  comment: 新增员工 - 正向
+  test_employee01: 无描述
+  test_employee02[case_data0]: 无描述
+  test_employee02[case_data1]: 无描述
+  test_employee03: 无描述
+  test_employee04[case_employeeId0]: 无描述
+  test_employee04[case_employeeId1]: 无描述
+  test_employee05: 无描述
+  test_employee06[delete_case0]: 无描述
+  test_employee06[delete_case1]: 无描述
+  test_employee07: 无描述
+  test_employee08: 无描述

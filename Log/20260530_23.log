@@ -1,0 +1,517 @@
+2026-05-30 23:03:39,637 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:03:39,637 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:03:40,355 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:03:40,356 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:03:40,811 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:03:40,813 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:03:40,814 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:03:40,816 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:03:41,434 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:03:41,435 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:03:41,437 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:03:41,437 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:03:41,437 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:03:41,437 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:03:41,437 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:03:41,506 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:03:41,506 - baseAutoHttp.py - INFO - 响应耗时: 0.067347s
+2026-05-30 23:03:41,506 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:03:41,506 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:03:41,506 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:05:36,112 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:36,113 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:05:36,270 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:36,271 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:36,612 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:36,614 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:05:36,615 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:36,616 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:05:37,158 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:37,158 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:05:37,160 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:05:37,161 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:05:37,161 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:05:37,161 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:05:37,161 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:05:37,222 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:05:37,222 - baseAutoHttp.py - INFO - 响应耗时: 0.059314s
+2026-05-30 23:05:37,222 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:05:37,222 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:05:37,223 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:05:53,111 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:53,112 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:05:53,263 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:53,264 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:53,551 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:53,553 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:05:53,554 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:53,556 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:05:54,080 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:05:54,081 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:05:54,083 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:05:54,083 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:05:54,083 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:05:54,083 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:05:54,084 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:05:54,157 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:05:54,157 - baseAutoHttp.py - INFO - 响应耗时: 0.072247s
+2026-05-30 23:05:54,157 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:05:54,157 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:13:10,611 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:13:10,611 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:13:10,753 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:13:10,755 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:13:11,097 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:13:11,099 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:13:11,101 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:13:11,102 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:15:55,533 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:55,533 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:15:55,677 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:55,679 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:55,971 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:55,974 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:15:55,975 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:55,977 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:15:55,978 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:55,979 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:15:56,522 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:56,522 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:15:56,524 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:15:56,525 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:15:56,525 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:15:56,525 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:15:56,525 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:15:56,591 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:15:56,591 - baseAutoHttp.py - INFO - 响应耗时: 0.064746s
+2026-05-30 23:15:56,591 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:15:56,591 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:15:56,946 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:15:56,946 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:15:56,948 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:15:56,948 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:15:56,949 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:15:56,949 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:15:56,949 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:15:57,042 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:15:57,042 - baseAutoHttp.py - INFO - 响应耗时: 0.091587s
+2026-05-30 23:15:57,042 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:15:57,042 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:16:10,179 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:10,180 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:16:10,331 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:10,333 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:10,595 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:10,598 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:16:10,600 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:10,601 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:16:43,058 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:43,058 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:16:43,216 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:43,218 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:43,492 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:43,493 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:16:43,495 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:16:43,496 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:18:58,612 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:58,612 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:18:58,755 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:58,756 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:59,033 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:59,035 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:18:59,036 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:59,037 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:18:59,038 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:59,039 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:18:59,555 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:59,556 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:18:59,558 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:18:59,558 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:18:59,558 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:18:59,558 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:18:59,558 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:18:59,617 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:18:59,618 - baseAutoHttp.py - INFO - 响应耗时: 0.058202s
+2026-05-30 23:18:59,618 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:18:59,618 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:18:59,618 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:18:59,621 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:18:59,622 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:18:59,624 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:18:59,624 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:18:59,624 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:18:59,624 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:18:59,624 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:18:59,703 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:18:59,703 - baseAutoHttp.py - INFO - 响应耗时: 0.077503s
+2026-05-30 23:18:59,703 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:18:59,703 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:20:05,815 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:05,815 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:20:05,953 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:05,954 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:06,262 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:06,264 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:20:06,265 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:06,266 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:20:06,268 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:06,269 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:20:06,803 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:06,804 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:20:06,806 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:20:06,806 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:20:06,806 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:20:06,806 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:20:06,806 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:20:06,872 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:20:06,872 - baseAutoHttp.py - INFO - 响应耗时: 0.063998s
+2026-05-30 23:20:06,872 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:20:06,872 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:20:06,872 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:20:06,876 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:20:06,877 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:20:06,881 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:20:06,881 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:20:06,881 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:20:06,881 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:20:06,881 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:20:06,936 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:20:06,937 - baseAutoHttp.py - INFO - 响应耗时: 0.053527s
+2026-05-30 23:20:06,937 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:20:06,937 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:21:33,473 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:21:33,474 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:21:33,640 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:21:33,641 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:21:33,923 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:21:33,926 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:21:33,927 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:21:33,929 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:21:34,436 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:21:34,437 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:21:34,439 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:21:34,439 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:21:34,439 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:21:34,439 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:21:34,439 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:21:34,493 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:21:34,493 - baseAutoHttp.py - INFO - 响应耗时: 0.052539s
+2026-05-30 23:21:34,493 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:21:34,493 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:23:22,529 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:23:22,529 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:23:22,678 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:23:22,680 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:23:22,973 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:23:22,975 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:23:22,976 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:23:22,978 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:23:23,492 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:23:23,493 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:23:23,495 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:23:23,495 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:23:23,495 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:23:23,495 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:23:23,495 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:23:23,553 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:23:23,554 - baseAutoHttp.py - INFO - 响应耗时: 0.057157s
+2026-05-30 23:23:23,554 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:23:23,554 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:25:08,211 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:08,211 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:25:08,360 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:08,361 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:08,637 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:08,640 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:25:08,641 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:08,642 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:25:09,142 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:09,143 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:25:09,145 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:25:09,145 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:25:09,145 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:25:09,145 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:25:09,145 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:25:09,202 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:25:09,202 - baseAutoHttp.py - INFO - 响应耗时: 0.055204s
+2026-05-30 23:25:09,202 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:25:09,202 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:25:28,861 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:28,862 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:25:29,007 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:29,008 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:29,278 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:29,280 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:25:29,281 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:29,283 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:25:29,789 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:25:29,790 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:25:29,792 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:25:29,792 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:25:29,792 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:25:29,792 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:25:29,792 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:25:29,849 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:25:29,849 - baseAutoHttp.py - INFO - 响应耗时: 0.055501s
+2026-05-30 23:25:29,849 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:25:29,849 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:29:00,811 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:00,812 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:29:00,965 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:00,966 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:01,248 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:01,251 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:29:01,252 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:01,253 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:29:01,255 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:01,256 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:29:01,765 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:01,765 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:29:01,768 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:29:01,768 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:29:01,768 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:29:01,768 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:29:01,768 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:29:01,827 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:29:01,827 - baseAutoHttp.py - INFO - 响应耗时: 0.057628s
+2026-05-30 23:29:01,827 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:29:01,828 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:29:01,828 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:29:01,831 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:29:01,832 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:29:01,834 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:29:01,834 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:29:01,834 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:29:01,834 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:29:01,834 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:29:01,911 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:29:01,911 - baseAutoHttp.py - INFO - 响应耗时: 0.07504s
+2026-05-30 23:29:01,911 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:29:01,911 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:30:20,858 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:20,858 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:30:21,012 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,013 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,292 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,295 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:30:21,296 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,297 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:30:21,298 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,299 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:30:21,810 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,811 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:30:21,813 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:30:21,814 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:30:21,814 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:30:21,814 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:30:21,814 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:30:21,875 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:30:21,875 - baseAutoHttp.py - INFO - 响应耗时: 0.059886s
+2026-05-30 23:30:21,875 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:30:21,875 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:30:21,875 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:30:21,879 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:21,879 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:30:21,882 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:30:21,882 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:30:21,882 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:30:21,882 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:30:21,882 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:30:21,958 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:30:21,958 - baseAutoHttp.py - INFO - 响应耗时: 0.07415s
+2026-05-30 23:30:21,958 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:30:21,958 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:30:47,349 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:47,349 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:30:47,497 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:47,499 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:47,796 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:47,798 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:30:47,799 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:47,801 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:30:47,802 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:47,803 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:30:48,296 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:48,297 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:30:48,299 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:30:48,299 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:30:48,299 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:30:48,299 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:30:48,299 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:30:48,360 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:30:48,360 - baseAutoHttp.py - INFO - 响应耗时: 0.058857s
+2026-05-30 23:30:48,360 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:30:48,360 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:30:48,360 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:30:48,365 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:48,366 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:30:48,368 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:30:48,368 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:30:48,368 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:30:48,368 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:30:48,368 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:30:48,437 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:30:48,437 - baseAutoHttp.py - INFO - 响应耗时: 0.065841s
+2026-05-30 23:30:48,437 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:30:48,437 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:30:56,466 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:56,466 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:30:56,627 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:56,628 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:56,898 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:56,900 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:30:56,902 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:56,903 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:30:56,904 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:56,904 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:30:57,396 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:57,397 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:30:57,399 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:30:57,399 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:30:57,399 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:30:57,399 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:30:57,399 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:30:57,480 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:30:57,480 - baseAutoHttp.py - INFO - 响应耗时: 0.079909s
+2026-05-30 23:30:57,480 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:30:57,481 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:30:57,481 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:30:57,485 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:30:57,486 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:30:57,488 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:30:57,488 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:30:57,488 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:30:57,488 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:30:57,488 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:30:57,560 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:30:57,560 - baseAutoHttp.py - INFO - 响应耗时: 0.070369s
+2026-05-30 23:30:57,560 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:30:57,560 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:31:14,065 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:14,066 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:31:14,226 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:14,227 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:14,516 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:14,518 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:31:14,519 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:14,520 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:31:14,522 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:14,523 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:31:15,035 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:15,035 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:31:15,038 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:31:15,038 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:31:15,038 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:31:15,038 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:31:15,038 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:31:15,099 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:31:15,099 - baseAutoHttp.py - INFO - 响应耗时: 0.059619s
+2026-05-30 23:31:15,099 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:31:15,099 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:31:15,099 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:31:15,103 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:15,103 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:31:15,105 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:31:15,106 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:31:15,106 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:31:15,106 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:31:15,106 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:31:15,164 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:31:15,164 - baseAutoHttp.py - INFO - 响应耗时: 0.056414s
+2026-05-30 23:31:15,164 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:31:15,164 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:31:15,164 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:31:48,995 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:48,996 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:31:49,144 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:49,145 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:49,439 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:49,442 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:31:49,443 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:49,444 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:31:49,445 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:49,446 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:31:49,950 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:49,950 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:31:49,952 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:31:49,953 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:31:49,953 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:31:49,953 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:31:49,953 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:31:50,016 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:31:50,016 - baseAutoHttp.py - INFO - 响应耗时: 0.061601s
+2026-05-30 23:31:50,016 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:31:50,016 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:31:50,016 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:31:50,019 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:31:50,020 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:31:50,022 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:31:50,022 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:31:50,022 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:31:50,022 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:31:50,022 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:31:50,097 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:31:50,097 - baseAutoHttp.py - INFO - 响应耗时: 0.072632s
+2026-05-30 23:31:50,097 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:31:50,097 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:32:17,103 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:17,104 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 23:32:17,251 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:17,252 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:17,553 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:17,555 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 23:32:17,556 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:17,557 - baseData.py - INFO - 数据驱动读取成功：02添加员工接口
+2026-05-30 23:32:17,558 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:17,559 - baseData.py - INFO - 数据驱动读取成功：03指定查询
+2026-05-30 23:32:18,064 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:18,064 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:32:18,067 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-05-30 23:32:18,067 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:32:18,067 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:32:18,067 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:32:18,067 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:32:18,131 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:32:18,132 - baseAutoHttp.py - INFO - 响应耗时: 0.062885s
+2026-05-30 23:32:18,132 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-05-30 23:32:18,132 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:32:18,132 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕
+2026-05-30 23:32:18,136 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 23:32:18,136 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-05-30 23:32:18,138 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '9999'}
+2026-05-30 23:32:18,139 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-05-30 23:32:18,139 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-05-30 23:32:18,139 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-05-30 23:32:18,139 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '9999', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-05-30 23:32:18,221 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-05-30 23:32:18,221 - baseAutoHttp.py - INFO - 响应耗时: 0.08054s
+2026-05-30 23:32:18,221 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-05-30 23:32:18,221 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-05-30 23:32:18,221 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕

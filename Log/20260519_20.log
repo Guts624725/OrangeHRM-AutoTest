@@ -1,0 +1,107 @@
+2026-05-19 20:04:28,376 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:28,376 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-19 20:04:28,837 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:28,839 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-19 20:04:28,840 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:28,841 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-19 20:04:29,998 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-19 20:04:30,000 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:30,001 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-19 20:04:30,002 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:36,380 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-19 20:04:36,383 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:41,042 - baseAutoWeb.py - INFO - ✅ 通用联想下拉选择完成
+2026-05-19 20:04:41,762 - baseAutoWeb.py - INFO - ✅ 滚动成功：conservator/add
+2026-05-19 20:04:42,267 - baseAutoWeb.py - INFO - 🔍 通用下拉选择：禁用
+2026-05-19 20:04:48,702 - baseAutoWeb.py - INFO - ✅ 通用自定义下拉选择成功
+2026-05-19 20:04:48,894 - baseAutoWeb.py - INFO - 🔍 顶部下拉选择：登出
+2026-05-19 20:04:49,518 - baseAutoWeb.py - INFO - ✅ 顶部导航选中：登出
+2026-05-19 20:04:49,519 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:04:49,519 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-19 20:04:49,520 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:05:03,266 - baseAutoWeb.py - WARNING - ⚠️ 第1次点击失败，0.5秒后重试... 错误：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff726c00295+146d5]
+	chromedriver!GetHandle
+2026-05-19 20:05:14,855 - baseAutoWeb.py - WARNING - ⚠️ 第2次点击失败，0.5秒后重试... 错误：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff726c00295+146d5]
+	chromedriver!GetHandle
+2026-05-19 20:05:26,384 - baseAutoWeb.py - WARNING - ⚠️ 普通点击全部失败，尝试JS点击... 最后一次错误：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff726c00295+146d5]
+	chromedriver!GetHandle
+2026-05-19 20:05:37,453 - baseAutoWeb.py - ERROR - ❌ JS点击也失败：login/username，错误：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff726c00295+146d5]
+	chromedriver!GetHandleVerifier [0x7ff726c00300+14740]
+	chromedriver!(No symbol) [0x7ff72696d7cd]
+	chromedriver!(No symbol) [0x7ff7269c6c4e]
+	chromedriver!(No symbol) [0x7ff7269c6f5c]
+	chromedriver!(No symbol) [0x7ff726a17cc7]
+	chromedriver!(No symbol) [0x7ff726a14818]
+	chromedriver!(No symbol) [0x7ff7269b9018]
+	chromedriver!(No symbol) [0x7ff7269b9f03]
+	chromedriver!GetHandleVerifier [0x7ff726f15949+329d89]
+	chromedriver!GetHandleVerifier [0x7ff726f0fe96+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff726f33102+347542]
+	chromedriver!GetHandleVerifier [0x7ff726c1d425+31865]
+	chromedriver!GetHandleVerifier [0x7ff726c2605c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff726c09684+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff726c09836+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff726bee347+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ffc4a11e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc4b40c3fc+2c]
+
+2026-05-19 20:05:37,453 - baseAutoWeb.py - ERROR - 执行click操作失败，元素：login/username，错误：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff726c00295+146d5]
+	chromedriver!GetHandleVerifier [0x7ff726c00300+14740]
+	chromedriver!(No symbol) [0x7ff72696d7cd]
+	chromedriver!(No symbol) [0x7ff7269c6c4e]
+	chromedriver!(No symbol) [0x7ff7269c6f5c]
+	chromedriver!(No symbol) [0x7ff726a17cc7]
+	chromedriver!(No symbol) [0x7ff726a14818]
+	chromedriver!(No symbol) [0x7ff7269b9018]
+	chromedriver!(No symbol) [0x7ff7269b9f03]
+	chromedriver!GetHandleVerifier [0x7ff726f15949+329d89]
+	chromedriver!GetHandleVerifier [0x7ff726f0fe96+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff726f33102+347542]
+	chromedriver!GetHandleVerifier [0x7ff726c1d425+31865]
+	chromedriver!GetHandleVerifier [0x7ff726c2605c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff726c09684+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff726c09836+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff726bee347+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ffc4a11e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc4b40c3fc+2c]
+
+2026-05-19 20:05:40,161 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-19 20:07:19,635 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:19,636 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-19 20:07:19,985 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:19,986 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-19 20:07:19,987 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:19,988 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-19 20:07:21,145 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-19 20:07:21,148 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:21,148 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-19 20:07:21,150 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:26,604 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-19 20:07:26,606 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:31,951 - baseAutoWeb.py - INFO - ✅ 通用联想下拉选择完成
+2026-05-19 20:07:32,663 - baseAutoWeb.py - INFO - ✅ 滚动成功：conservator/add
+2026-05-19 20:07:33,136 - baseAutoWeb.py - INFO - 🔍 通用下拉选择：禁用
+2026-05-19 20:07:39,582 - baseAutoWeb.py - INFO - ✅ 通用自定义下拉选择成功
+2026-05-19 20:07:39,770 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:40,775 - 02修改员工信息.yaml - INFO - ✅ 管理员禁用用户登录操作成功
+2026-05-19 20:07:40,775 - test_web_ohrm.py - INFO - ✅ 【管理员禁用用户】用例执行完成
+2026-05-19 20:07:42,963 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-19 20:07:44,122 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-19 20:07:44,124 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:44,124 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-19 20:07:44,125 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:49,551 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-19 20:07:49,552 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-19 20:07:50,558 - 02修改员工信息.yaml - INFO - ✅ 管理员禁用用户登录成功
+2026-05-19 20:07:50,559 - test_web_ohrm.py - INFO - ✅ 【管理员禁用用户】用例执行完成
+2026-05-19 20:07:52,751 - conftest.py - INFO - ✅ 浏览器驱动已退出

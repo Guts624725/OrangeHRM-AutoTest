@@ -1,0 +1,51 @@
+workerupdate:
+
+#个人管理信息管理系统
+
+#1.添加新员工(正常流程)
+#  个人信息管理系统标识
+  permanage: ["xpath","//span[text()='个人信息管理系统']"]
+#  添加按钮
+  add_worker: ["xpath","//button[@type='button' and contains(.,'添加')]"]
+# 名字
+  firename: ["xpath","//input[@name='firstName' and @placeholder='名字']"]
+# 姓
+  lastname: ["xpath","//input[@name='lastName' and @placeholder='姓']"]
+#  员工识别号
+  id: [ "xpath","//label[normalize-space()='员工识别号']/ancestor::div[contains(@class,'oxd-input-group')]//input"]
+#  保存按钮
+  save: ["xpath","//button[@type='submit' and contains(.,'保存')]"]
+
+  savelive: ["xpath","//div[@aria-live='assertive']"]
+#  点击用户，跳转出个人详情信息
+  perdata: ["xpath","//a[text()='个人详细信息']"]
+
+
+#2.添加员工时必填字段为空(负向)
+#  添加员工时的名字为空时下面的需要
+  need1:  ["xpath","//input[@name='firstName']/ancestor::div//span[text()='需要']"]
+#  添加员工时的姓为空时下面的需要
+  need2:  ["xpath","//input[@name='lastName']/ancestor::div//span[text()='需要']"]
+#  创建登录详情标识
+  uid: ["xpath","//div/p[text()='创建登录详情']"]
+
+
+#3.编辑员工个人信息
+#  搜索框
+  sel: ["xpath","//input[@placeholder='Type for hints...']"]
+#  搜索按钮
+  button: ["xpath","//div[@class='oxd-form-actions']/button[@type='submit']"]
+#  点击搜索后的信息
+  dataname: ["xpath","//div[contains(@class,'oxd-table-row') and //div[text()='202501']]//button[contains(@class,'oxd-icon-button')]"]
+#  出生日期框
+  birtext: ["xpath","//label[@class='oxd-label' and text()='出生日期']/../following-sibling::div//input"]
+
+
+#4.删除员工
+#  zhangsan: ["xpath","//div[@class='orangehrm-container']/div[@role='table']"]
+#  wangwu: ["xpath","//div[@class='orangehrm-container']/div[@role='table' and row-decorator='oxd-table-decorator-card']"]
+#  delsel: ["xpath","//div/button[@type='button']"]
+#  tanchuang: ["xpath","//div[contains(@class,'oxd-dialog-sheet')]"]
+  record_selected: ["xpath","//span[contains(.,'(1) Records Selected')]"]
+  delsel: ["xpath","//button[contains(@class, 'oxd-button--label-danger') and contains(., 'Delete Selected')]"]
+

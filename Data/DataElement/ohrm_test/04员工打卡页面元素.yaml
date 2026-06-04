@@ -1,0 +1,6 @@
+punch:
+  time: ["xpath","//span[text()='时间']"]
+  punsel: ["xpath","//span[@class='oxd-topbar-body-nav-tab-item' and contains(.,'出勤')]/i[contains(@class,'bi-chevron-down')]"]
+  gowork: ["xpath","//button[@type='submit' and contains(.,'上班')]"]
+  offwork: ["xpath","//button[@type='submit' and contains(.,'下班')]"]
+  slither: ["xpath","//span[text()=' (7) Records Found']"]

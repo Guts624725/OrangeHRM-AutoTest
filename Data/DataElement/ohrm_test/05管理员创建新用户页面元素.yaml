@@ -1,0 +1,13 @@
+conservator:
+  admin: ["xpath","//span[contains(@class,'oxd-text--span') and text()='管理员']"]
+  add: ["xpath","//button[@type='button' and contains(.,'添加')]"]
+  type1: ["xpath","//label[text()='用户角色']/../following-sibling::div//i"]
+  type2: ["xpath","//label[text()='状态']/../following-sibling::div//i"]
+  name1: ["xpath","//input[@placeholder='Type for hints...']"]
+  username: ["xpath","//input[contains(@class,'oxd-input') and @autocomplete='off']"]
+  password1: ["xpath","//input[@type='password' and @autocomplete='off']"]
+  password2: ["xpath","//label[text()='确认密码']/../following-sibling::div/input"]
+  save: ["xpath","//button[@type='submit' and contains(.,'保存')]"]
+  selbutton: ["xpath","//button[@type='submit' and contains(.,' 搜索 ')]"]
+  update: ["xpath","//span[text()=' (1) Records Found']/ancestor::div/following-sibling::div//i[contains(@class,'bi-pencil-fill')]"]
+  logout: ["xpath","//h6[text()='管理员']/ancestor::div/following-sibling::div[contains(@class,'oxd-topbar-header-userarea')]//i"]

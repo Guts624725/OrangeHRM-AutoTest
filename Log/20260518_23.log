@@ -1,0 +1,111 @@
+2026-05-18 23:19:24,200 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:24,200 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-18 23:19:24,666 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:24,667 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-18 23:19:24,668 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:24,669 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-18 23:19:25,978 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-18 23:19:25,980 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:25,980 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-18 23:19:25,982 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:31,616 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-18 23:19:31,619 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:36,193 - baseAutoWeb.py - INFO - 🔍 通用下拉选择：年假
+2026-05-18 23:19:43,460 - baseAutoWeb.py - INFO - ✅ 通用自定义下拉选择成功
+2026-05-18 23:19:43,644 - 02修改员工信息.yaml - INFO - 输入开始时间
+2026-05-18 23:19:43,679 - 02修改员工信息.yaml - INFO - 输入结束时间
+2026-05-18 23:19:43,809 - 02修改员工信息.yaml - INFO - 输入请假原因
+2026-05-18 23:19:44,013 - 02修改员工信息.yaml - INFO - 点击申请
+2026-05-18 23:19:44,014 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:44,670 - 02修改员工信息.yaml - INFO - ✅ 申请请假成功
+2026-05-18 23:19:44,670 - test_web_ohrm.py - INFO - ✅ 【员工申请请假】用例执行完成
+2026-05-18 23:19:46,852 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-18 23:19:47,997 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-18 23:19:47,999 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:47,999 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-18 23:19:48,000 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:53,436 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-18 23:19:53,438 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:19:58,211 - baseAutoWeb.py - INFO - ✅ 滚动成功：admin/huadong
+2026-05-18 23:19:58,972 - baseAutoWeb.py - INFO - ✅ 勾选成功：四四 李
+2026-05-18 23:19:59,494 - baseAutoWeb.py - INFO - ✅ 滚动成功：admin/refuse
+2026-05-18 23:20:02,379 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-18 23:24:10,786 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:10,787 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-18 23:24:11,203 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:11,204 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-18 23:24:11,205 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:11,206 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-18 23:24:12,378 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-18 23:24:12,380 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:12,380 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-18 23:24:12,382 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:17,861 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-18 23:24:17,863 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:22,153 - baseAutoWeb.py - INFO - 🔍 通用下拉选择：年假
+2026-05-18 23:24:29,374 - baseAutoWeb.py - INFO - ✅ 通用自定义下拉选择成功
+2026-05-18 23:24:29,562 - 02修改员工信息.yaml - INFO - 输入开始时间
+2026-05-18 23:24:29,597 - 02修改员工信息.yaml - INFO - 输入结束时间
+2026-05-18 23:24:29,736 - 02修改员工信息.yaml - INFO - 输入请假原因
+2026-05-18 23:24:29,934 - 02修改员工信息.yaml - INFO - 点击申请
+2026-05-18 23:24:29,935 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:30,590 - 02修改员工信息.yaml - INFO - ✅ 申请请假成功
+2026-05-18 23:24:30,590 - test_web_ohrm.py - INFO - ✅ 【员工申请请假】用例执行完成
+2026-05-18 23:24:32,775 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-18 23:24:33,930 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-18 23:24:33,931 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:33,932 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-18 23:24:33,933 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:39,379 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-18 23:24:39,382 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:43,812 - baseAutoWeb.py - INFO - ✅ 滚动成功：admin/huadong
+2026-05-18 23:24:44,576 - baseAutoWeb.py - INFO - ✅ 勾选成功：四四 李
+2026-05-18 23:24:45,096 - baseAutoWeb.py - INFO - ✅ 滚动成功：admin/refuse
+2026-05-18 23:24:45,297 - 02修改员工信息.yaml - INFO - 点击拒绝
+2026-05-18 23:24:45,297 - baseAutoWeb.py - INFO - 🔍 智能处理确认弹窗，操作：confirm
+2026-05-18 23:24:51,190 - baseAutoWeb.py - INFO - ✅ 点击按钮成功
+2026-05-18 23:24:51,201 - baseAutoWeb.py - INFO - ✅ 弹窗已关闭，操作完成
+2026-05-18 23:24:51,203 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:24:51,511 - 02修改员工信息.yaml - INFO - ✅ 请假批准拒绝成功
+2026-05-18 23:24:51,512 - test_web_ohrm.py - INFO - ✅ 【管理员拒绝批准假期】用例执行完成
+2026-05-18 23:24:53,728 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-18 23:45:16,352 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:16,352 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-18 23:45:16,735 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:16,736 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-18 23:45:16,737 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:16,738 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-18 23:45:17,967 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-18 23:45:17,969 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:17,969 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-18 23:45:17,971 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:23,562 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-18 23:45:23,565 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:28,059 - baseAutoWeb.py - INFO - 🔍 通用下拉选择：年假
+2026-05-18 23:45:35,323 - baseAutoWeb.py - INFO - ✅ 通用自定义下拉选择成功
+2026-05-18 23:45:35,502 - 02修改员工信息.yaml - INFO - 输入开始时间
+2026-05-18 23:45:35,534 - 02修改员工信息.yaml - INFO - 输入结束时间
+2026-05-18 23:45:35,661 - 02修改员工信息.yaml - INFO - 输入请假原因
+2026-05-18 23:45:35,864 - 02修改员工信息.yaml - INFO - 点击申请
+2026-05-18 23:45:35,865 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:45:40,452 - conftest.py - INFO - ✅ 浏览器驱动已退出
+2026-05-18 23:49:58,226 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:49:58,226 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-18 23:49:58,557 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:49:58,559 - baseData.py - INFO - 数据驱动读取成功：01登录功能
+2026-05-18 23:49:58,560 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:49:58,561 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
+2026-05-18 23:49:59,723 - conftest.py - INFO - ✅ 启动浏览器成功：chrome
+2026-05-18 23:49:59,724 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:49:59,725 - 01登录页面元素信息.yaml - INFO - ========== 开始执行 OrangeHRM 登录操作 ==========
+2026-05-18 23:49:59,726 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:50:05,183 - 01登录页面元素信息.yaml - INFO - ========== OrangeHRM 登录操作执行完成 ==========
+2026-05-18 23:50:05,185 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:50:09,373 - baseAutoWeb.py - INFO - 🔍 通用下拉选择：年假
+2026-05-18 23:50:16,673 - baseAutoWeb.py - INFO - ✅ 通用自定义下拉选择成功
+2026-05-18 23:50:16,860 - 02修改员工信息.yaml - INFO - 输入开始时间
+2026-05-18 23:50:16,891 - 02修改员工信息.yaml - INFO - 输入结束时间
+2026-05-18 23:50:17,023 - 02修改员工信息.yaml - INFO - 输入请假原因
+2026-05-18 23:50:17,231 - 02修改员工信息.yaml - INFO - 点击申请
+2026-05-18 23:50:17,232 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-18 23:50:21,915 - conftest.py - INFO - ✅ 浏览器驱动已退出

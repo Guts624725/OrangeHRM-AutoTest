@@ -1,0 +1,20 @@
+worker:
+  holiday: ["xpath","//span[contains(@class,'oxd-text--span') and text()='休假']"]
+  apply: ["xpath","//a[text()='申请']"]
+#  type: ["xpath","//div[contains(@class,'oxd-select-text-input') and contains(.,'-- Select --')]"]
+#  type: ["xpath","//label[text()='休假类型']/../following-sibling::div/div/div/div"]
+  type: ["xpath","//label[text()='休假类型']/../following-sibling::div//i"]
+  start: ["xpath","//label[text()='起始日期']/../following-sibling::div//input"]
+  end: ["xpath","//label[text()='结束日期']/../following-sibling::div//input"]
+  startcal: ["xpath","//label[contains(.,'起始日期')]/../following-sibling::div//i"]
+  endcal: ["xpath","//label[contains(.,'结束日期')]/../following-sibling::div//i"]
+  comments: ["xpath","//label[text()='评论']/../following-sibling::div/textarea"]
+  buttonbtn: ["xpath","//button[contains(@type,'submit') and contains(.,'申请')]"]
+
+admin:
+  holiday: ["xpath","//span[contains(@class,'oxd-text--span') and text()='休假']"]
+  ratify: ["xpath","//button[contains(@type,'button') and contains(.,'批准')]"]
+  refuse: ["xpath","//button[contains(@type,'button') and contains(.,'拒绝')]"]
+  cancel: ["xpath","//button[contains(@type,'button') and contains(.,'取消')]"]
+  huadong: ["xpath","//span[text()=' (1) Records Found']/../following-sibling::div"]
+

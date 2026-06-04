@@ -1,0 +1,13 @@
+2026-06-01 22:31:23,913 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-01 22:31:23,914 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-01 22:31:23,916 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '1001'}
+2026-06-01 22:31:23,916 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-01 22:31:23,916 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-01 22:31:23,916 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-01 22:31:23,916 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '1001', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-01 22:31:24,001 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-01 22:31:24,001 - baseAutoHttp.py - INFO - 响应耗时: 0.083149s
+2026-06-01 22:31:24,001 - baseAutoHttp.py - INFO - 响应JSON: {'data': [{'empNumber': 5, 'lastName': 'Doe', 'firstName': 'John', 'middleName': '', 'employeeId': '1001', 'terminationId': None, 'jobTitle': {'id': None, 'title': None, 'isDeleted': None}, 'subunit': {'id': None, 'name': None}, 'empStatus': {'id': None, 'name': None}, 'supervisors': []}], 'meta': {'total': 1}, 'rels': []}
+2026-06-01 22:31:24,001 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-01 22:31:24,001 - test_web_ohrm.py - INFO - ☑️【指定查询用例】执行完毕

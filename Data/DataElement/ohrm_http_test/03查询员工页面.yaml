@@ -1,0 +1,35 @@
+#查询员工列表
+select_employee:
+  method: get
+  url: web/index.php/api/v2/pim/employees
+  headers:
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+  params:
+    limit: "50"
+    offset: "0"
+    model: "detailed"
+    includeEmployees: "onlyCurrent"
+    sortField: "employee.firstName"
+    sortOrder: "ASC"
+
+#查询指定员工
+select_query:
+  method: get
+  url: web/index.php/api/v2/pim/employees
+  headers:
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+    Referer: http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList
+  params:
+    limit: "50"
+    offset: "0"
+    model: "detailed"
+    employeeId: "${employeeId}"
+    includeEmployees: "onlyCurrent"
+    sortField: "employee.firstName"
+    sortOrder: "ASC"
+
+
+
+
+
+

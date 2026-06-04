@@ -1,0 +1,17 @@
+login:
+  username: ["name","username"]
+  password: ["name","password"]
+  loginbtn: ["xpath","//button[@type='submit' and contains(.,'登录')]"]
+  admin: ["xpath","//span[@value='管理员']"]
+  quite: ["xpath","//ul[@role='menu']/li[4]/a[@role='menuitem' and text()='登出']"]
+  error: ["xpath","//p[text()='Invalid credentials']"]
+  adminname: ["xpath","//p[@class='oxd-userdropdown-name' and contains(.,'谢 安')]"]
+  yibiao: ["xpath","//span[text()='仪表盘']"]
+  need: ["xpath","//span[text()='需要']"]
+
+#  from: ["xpath","//form[contains(@class,'oxd-form')]"]
+  session_error: ["xpath","//div[contains(@class,'oxd-alert--error')]//p"]
+
+header:
+  user_dropdown: ["xpath","//span[@class='oxd-userdropdown-tab']/i"]
+  logout_link: ["xpath","//ul[@class='oxd-dropdown-menu' and @role='menu']/li[4]/a[text()='登出']"]

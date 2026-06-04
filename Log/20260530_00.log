@@ -1,0 +1,74 @@
+2026-05-30 00:00:04,339 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:00:04,340 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:00:04,973 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:00:04,974 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:00:05,299 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:00:05,301 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:00:05,307 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:22:05,519 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:22:05,520 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:22:05,728 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:22:05,729 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:22:06,012 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:22:06,013 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:22:06,016 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:22:06,254 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-30 00:22:06,254 - conftest - INFO - ✅ conftest：获取数据库连接（MysqlHelp）
+2026-05-30 00:22:06,609 - conftest - INFO - 🔌 conftest：数据库连接已关闭
+2026-05-30 00:27:02,368 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:27:02,369 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:27:02,522 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:27:02,523 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:27:02,795 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:27:02,796 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:27:02,799 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:27:03,012 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-30 00:27:03,012 - conftest - INFO - ✅ conftest：获取数据库连接（MysqlHelp）
+2026-05-30 00:27:03,391 - conftest - INFO - 🔌 conftest：数据库连接已关闭
+2026-05-30 00:36:22,192 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:22,193 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:36:22,337 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:22,338 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:22,593 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:36:22,596 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:22,601 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:36:22,785 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-30 00:36:22,785 - conftest - INFO - ✅ conftest：获取数据库连接（MysqlHelp）
+2026-05-30 00:36:23,173 - conftest - INFO - 🔌 conftest：数据库连接已关闭
+2026-05-30 00:36:45,197 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:45,198 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:36:45,347 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:45,348 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:45,580 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:36:45,582 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:36:45,584 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:36:45,778 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-30 00:36:45,778 - conftest - INFO - ✅ conftest：获取数据库连接（MysqlHelp）
+2026-05-30 00:36:46,137 - conftest - INFO - 🔌 conftest：数据库连接已关闭
+2026-05-30 00:45:01,021 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:45:01,022 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:45:01,206 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:45:01,207 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:45:01,500 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:45:01,502 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:45:01,505 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:45:01,713 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-30 00:45:01,713 - conftest - INFO - ✅ conftest：获取数据库连接（MysqlHelp）
+2026-05-30 00:45:02,094 - conftest - INFO - 🔌 conftest：数据库连接已关闭
+2026-05-30 00:46:53,011 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:46:53,011 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:46:53,166 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:46:53,167 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:46:53,420 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:46:53,421 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:46:53,424 - baseData.py - INFO - 数据驱动读取成功：01登录接口
+2026-05-30 00:46:53,635 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-05-30 00:46:53,635 - conftest - INFO - ✅ conftest：获取数据库连接（MysqlHelp）
+2026-05-30 00:46:54,028 - conftest - INFO - 🔌 conftest：数据库连接已关闭
+2026-05-30 00:54:51,163 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:54:51,163 - globalManager.py - INFO - 全局变量管理器初始化成功
+2026-05-30 00:54:51,363 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:54:51,364 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:54:51,617 - web_login_page.py - INFO - 断言成功
+2026-05-30 00:54:51,619 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-05-30 00:54:51,621 - baseData.py - INFO - 数据驱动读取成功：01登录接口

@@ -1,0 +1,78 @@
+# ==============================================
+# 自动化测试框架 全局配置文件
+# 支持：WEB/接口/客户端自动化、日志、邮件、数据库、报告
+# ==============================================
+
+[客户端自动化配置]
+# 鼠标移动速度（秒）
+duration = 0.2
+# 点击间隔时间（秒），0为立即执行
+interval = 0.25
+# 图片识别隐式等待最大时间（秒）
+minSearchTime = 5
+# 图片识别信任度（0-1）
+confidence = 0.97
+# 是否开启灰度匹配（True/False）
+grayscale = True
+
+[web自动化配置]
+# 浏览器类型：chrome/firefox/edge/ie/chromeheadless
+browser = chrome
+
+[日志打印配置]
+# 日志输出格式
+formatter = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+# 全局日志级别：DEBUG、INFO、WARNING、ERROR、CRITICAL
+level = INFO
+# 控制台输出级别
+stream_handler_level = DEBUG
+# 文件输出级别
+file_handler_level = DEBUG
+
+[邮件发送配置]
+# SMTP服务器地址
+host = smtp.qq.com
+# SMTP端口(SSL) 🔥 修复：46 → 465
+port = 465
+# 发件人邮箱
+send_email = 511227621@qq.com
+# 收件人邮箱(群发用列表格式)
+receiver = ["1790159671@qq.com"]
+# 邮箱授权码(非登录密码)
+pwd = jesvhkpsmtefcajj
+# 发件人显示昵称
+sender = 测试中心：工具人
+# 邮件标题
+subject = 自动化测试报告
+
+[数据库连接配置]
+# 数据库类型
+dbtype = mysql
+# 数据库地址
+host = 127.0.0.1
+# 用户名
+user = root
+# 密码 123456
+passwd = Orangehrm@123
+# 端口 3306
+port = 3307
+# 数据库名 🔥 修复：xxxxxx → 替换为你的OrangeHRM实际数据库名
+database = orangehrm
+
+[项目运行配置]
+# 自动化类型：HTTP(接口) / WEB / CLIENT(客户端)
+AUTO_TYPE = HTTP
+# 报告类型：ALLURE / HTML / XML
+REPORT_TYPE = ALLURE
+# 数据驱动类型：YamlDriver / ExcelDriver
+DATA_DRIVER_TYPE = YamlDriver
+# 测试项目名(对应Data/TestSuits目录名)    ohrm_test   ohrm_http_test
+TEST_PROJECT = ohrm_http_test
+# 测试环境地址 🔥 修复：添加末尾斜杠，解决urljoin路径覆盖问题
+TEST_URL = http://127.0.0.1:8080/
+# 执行完成是否发送邮件：yes/no
+IS_EMAIL = yes
+
+[login]
+username = admin
+password = ******
