@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        ORANGEHRM_URL = 'http://host.docker.internal:8080'
-    }
-
     stages {
         stage('拉取代码') {
             steps {
@@ -12,11 +8,18 @@ pipeline {
             }
         }
 
+        stage('准备配置文件') {
+            steps {
+                sh '''
+                    mkdir -p Config
+                    cp /var/jenkins_home/secrets/配置文件.ini Config/配置文件.ini
+                '''
+            }
+        }
+
         stage('安装依赖') {
             steps {
-                 sh '''
-                    pip3 install -r requirements.txt --break-system-packages --ignore-installed -i https://pypi.tuna.tsinghua.edu.cn/simple --timeout 120 --retries 3
-                '''
+                sh 'pip3 install -r requirements.txt --break-system-packages --ignore-installed -i https://pypi.tuna.tsinghua.edu.cn/simple --timeout 120 --retries 3'
             }
         }
 
@@ -29,13 +32,7 @@ pipeline {
 
     post {
         always {
-            allure([
-                includeProperties: false,
-                jdk: '',
-                properties: [],
-                reportBuildPolicy: 'ALWAYS',
-                results: [[path: 'Reports/ALLURE/Report']]
-            ])
+            allure includeProperties: false, jdk: '', results: [[path: 'REPORTS/ALLURE/REPORT']]
         }
     }
 }
