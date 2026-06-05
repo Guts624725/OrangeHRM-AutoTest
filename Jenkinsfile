@@ -13,6 +13,12 @@ pipeline {
                 sh '''
                     mkdir -p Config
                     cp /var/jenkins_home/secrets/配置文件.ini Config/配置文件.ini
+                    
+                    # 去掉 BOM 头和 Windows 换行符
+                    sed -i '1s/^\xEF\xBB\xBF//' Config/配置文件.ini
+                    sed -i 's/\r$//' Config/配置文件.ini
+
+                    echo "配置文件已处理"
                 '''
             }
         }
