@@ -14,7 +14,9 @@ pipeline {
 
         stage('安装依赖') {
             steps {
-                sh 'pip3 install -r requirements.txt --break-system-packages --ignore-installed'
+                 sh '''
+                    pip3 install -r requirements.txt --break-system-packages --ignore-installed -i https://pypi.tuna.tsinghua.edu.cn/simple --timeout 120 --retries 3
+                '''
             }
         }
 
