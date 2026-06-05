@@ -14,9 +14,7 @@ pipeline {
 
         stage('安装依赖') {
             steps {
-                sh '''
-                    sh 'pip3 install -r requirements.txt --break-system-packages --ignore-installed'
-                '''
+                sh 'pip3 install -r requirements.txt --break-system-packages --ignore-installed'
             }
         }
 
