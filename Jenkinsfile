@@ -41,7 +41,7 @@ with open('Config/配置文件.ini', 'w', encoding='utf-8') as f:
 
     post {
         always {
-            allure includeProperties: false, jdk: '', results: [[path: 'REPORTS/ALLURE/REPORT']]
+            allure includeProperties: false, jdk: '', results: [[path: 'Reports/ALLURE/Result']]
         }
     }
 }
