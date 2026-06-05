@@ -15,8 +15,8 @@ pipeline {
         stage('安装依赖') {
             steps {
                 sh '''
-                    python3 -m pip install --upgrade pip --break-system-packages
-                    pip3 install -r requirements.txt --break-system-packages
+                    pip3 install -r requirements.txt --break-system-packages -i
+                     https://pypi.tuna.tsinghua.edu.cn/simple
                 '''
             }
         }
