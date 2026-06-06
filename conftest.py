@@ -18,8 +18,6 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.edge.service import Service as EdgeService
-
-
 # 框架核心依赖（完全保留原导入和别名）
 from Base.baseContainer import GlobalManager
 from Base.utils import read_config_ini
@@ -115,7 +113,7 @@ def driver(request):
     """
     browser_name = request.config.getoption("--browser").lower()
     driver_instance = None
-    implicit_wait = int(config['web自动化配置'].get('implicitly_wait', 5))
+    implicit_wait = int(config['web自动化配置'].get('implicitly_wait', 8))
 
     try:
         # ===================== 纯手动配置：本地驱动绝对路径（请修改为你自己的路径） =====================
@@ -162,6 +160,7 @@ def driver(request):
                     service=ChromeService(executable_path=CHROME_DRIVER_PATH),
                     options=chrome_options
                 )
+            chrome_options.add_argument('--window-size=1920,1080')
             driver_instance.set_window_size(1920, 1080)
         else:
             raise ValueError(f"不支持的浏览器类型：{browser_name}")
@@ -245,4 +244,3 @@ def pytest_collection_modifyitems(session, config, items):
         # 写入临时文件
         YH(BP.TEMPCASES_PATH).write_yaml(testcases)
         logger.info(f"✅ 用例信息已导出：{BP.TEMPCASES_PATH}")
-

@@ -20,7 +20,6 @@ logger = Logger("test_web_ohrm.py").get_logger()
 """web自动化-OrangerHRM-登录功能模块"""
 class TestCase01:
     """web自动化-OrangerHRM-登录功能模块"""
-
     @pytest.mark.parametrize("case_data", DataDriver().get_case_data("01登录功能"))
     def test_login_case01(self, driver, case_data):
         # 1. 初始化登录页面
@@ -116,38 +115,40 @@ class TestCase02:
 """web自动化-OrangerHRM-Leave员工请假模块"""
 class TestCase03:
 
-    """
-        员工申请假期
-        员工假期不足
-    """
+    """员工申请假期 """
     def test_vacation_case01(self, driver, info_login1):
         va = Vacation()
         va.ask_for_leave(starttime="2026-06-10", endtime="2026-06-12",comments="家庭假期")
         ass = AssertWorker()
-        # ass.assert_up_flag("8")
-        # logger.info("✅ 【员工申请请假】用例执行完成")
+        ass.assert_up_flag("8")
+        logger.info("✅ 【员工申请请假】用例执行完成")
+
+    """员工假期不足"""
+    def test_vacation_case02(self, driver, info_login1):
+        va = Vacation()
+        va.ask_for_leave(starttime="2026-06-10", endtime="2026-06-30",comments="家庭假期")
+        ass = AssertWorker()
         ass.assert_up_flag("11")
         logger.info("✅ 【员工假期余额不足】用例执行完成")
 
     """管理员批准假期"""
-    def test_vacation_case02(self, driver, info_login):
+    def test_vacation_case03(self, driver, info_login):
         va = Vacation()
-        va.approved_holiday(selname="四四 李")
+        va.approved_holiday(selname="李 四")
         ass = AssertWorker()
         ass.assert_up_flag("9")
         logger.info("✅ 【管理员批准假期】用例执行完成")
 
     """管理员拒绝请假"""
-    def test_vacation_case03(self, driver, info_login):
+    def test_vacation_case04(self, driver, info_login):
         va = Vacation()
-        va.refuse_holiday(selname="四四 李")
+        va.refuse_holiday(selname="李 四")
         ass = AssertWorker()
         ass.assert_up_flag("10")
         logger.info("✅ 【管理员拒绝批准假期】用例执行完成")
 
 """web自动化-OrangerHRM-Time员工打卡模块"""
 class TestCase04:
-
     def test_gowork_case01(self, driver, info_login1):
         pun = Punch()
         pun.gowork()

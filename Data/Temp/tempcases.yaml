@@ -1,22 +1,35 @@
-TestSuits/ohrm_http_test/test_http_ohrm.py::TestCase01:
-  comment: 管理员正常登录
-  test_login_case01: 无描述
-  test_login_case02: 无描述
-  test_login_case03: 无描述
-  test_login_case04: 无描述
-  test_login_case05[test_case0]: 无描述
-  test_login_case05[test_case1]: 无描述
-  test_login_case05[test_case2]: 无描述
-TestSuits/ohrm_http_test/test_http_ohrm.py::TestEmployee:
-  comment: 新增员工 - 正向
-  test_employee01: 无描述
-  test_employee02[case_data0]: 无描述
-  test_employee02[case_data1]: 无描述
-  test_employee03: 无描述
-  test_employee04[case_employeeId0]: 无描述
-  test_employee04[case_employeeId1]: 无描述
-  test_employee05: 无描述
-  test_employee06[delete_case0]: 无描述
-  test_employee06[delete_case1]: 无描述
-  test_employee07: 无描述
-  test_employee08: 无描述
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase01:
+  comment: web自动化-OrangerHRM-登录功能模块
+  test_login_case01[case_data0]: 无描述
+  test_login_case01[case_data1]: 无描述
+  test_login_case01[case_data2]: 无描述
+  test_login_case01[case_data3]: 无描述
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase02:
+  comment: 添加/校验员工信息（正向+负向用例）
+  test_update_case01[case_data0]: 添加/校验员工信息（正向+负向用例）
+  test_update_case01[case_data1]: 添加/校验员工信息（正向+负向用例）
+  test_update_case02: 编辑员工生日信息
+  test_addexist_case03: 添加新员工输入已经存在的识别号
+  test_selectname_case04: 搜索员工姓名
+  test_selectid_case05: 搜索员工id
+  test_delworker_case06: 勾选指定员工进行删除
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase03:
+  comment: '
+
+    员工申请假期
+
+    员工假期不足
+
+    '
+  test_vacation_case01: 无描述
+  test_vacation_case02: 无描述
+  test_vacation_case03: 无描述
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase04:
+  comment: ''
+  test_gowork_case01: 无描述
+  test_offwork_case02: 无描述
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase05:
+  comment: 创建新用户并分配角色
+  test_create_case01: 无描述
+  test_create_case02: 无描述
+  test_verify: 无描述

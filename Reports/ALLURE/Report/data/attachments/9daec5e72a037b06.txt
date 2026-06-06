@@ -1,0 +1,17 @@
+2026-06-07 03:31:55,880 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-07 03:31:55,905 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-07 03:31:55,907 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用开始
+2026-06-07 03:31:55,910 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'John', 'lastName': 'Doe', 'employeeId': '1001', 'base_url': 'http://127.0.0.1:8080'}
+2026-06-07 03:31:55,910 - baseAutoHttp.py - INFO - 请求方式: PUT
+2026-06-07 03:31:55,910 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees/5/personal-details
+2026-06-07 03:31:55,910 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewPersonalDetails/empNumber/5', 'Origin': 'http://127.0.0.1:8080'}
+2026-06-07 03:31:55,910 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'birthday': None, 'drivingLicenseExpiredDate': None, 'drivingLicenseNo': None, 'employeeId': '1001', 'firstName': 'John', 'gender': None, 'lastName': 'Doe', 'middleName': None, 'otherId': None}
+2026-06-07 03:31:55,965 - baseAutoHttp.py - INFO - 响应状态码: 500
+2026-06-07 03:31:55,966 - baseAutoHttp.py - INFO - 响应耗时: 0.054081s
+2026-06-07 03:31:55,966 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': '500', 'message': 'Unexpected Error Occurred'}}
+2026-06-07 03:31:55,966 - baseAutoHttp.py - INFO - 【04更新员工:update_employee】接口调用结束
+
+2026-06-07 03:31:55,972 - baseDB.py - INFO - ✅ MySQL 数据库连接成功
+2026-06-07 03:31:55,975 - baseDB.py - INFO - ✅ MySQL 执行成功，事务已提交
+2026-06-07 03:31:55,975 - baseDB.py - INFO - 🔌 MySQL 连接已关闭
+2026-06-07 03:31:55,998 - baseDB.py - INFO - ✅ MySQL 数据库连接成功

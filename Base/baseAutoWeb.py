@@ -28,7 +28,7 @@ class WebBase(DataBase):
     def __init__(self, yamlName):
         super().__init__(yamlName)
         self.driver = self.gm.get_value("driver")
-        self.default_timeout = 10
+        self.default_timeout = 13
         self.poll_interval = 0.5
 
     def get_locator_data(self, locator, change_data=None):

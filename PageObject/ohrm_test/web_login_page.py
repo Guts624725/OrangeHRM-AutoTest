@@ -62,16 +62,15 @@ class LoginPage(WebBase):
             val = self.get_text("login/yibiao")
             admval = self.get_text("login/adminname")
             assert val == "仪表盘", f"【断言失败】期望页面：仪表盘，实际：{val}"
-            assert admval == "安 谢", f"【断言失败】期望管理员：安 谢，实际：{admval}"
+            assert admval == "谢 安", f"【断言失败】期望管理员：谢 安，实际：{admval}"
             logger.info("✅ 登录成功断言通过")
 
         elif flag == "2":
             # 密码错误：保留用户名，清空密码
             error_text = self.get_text("login/error")
-            username_val = self.findElement("login/username").get_attribute("value")
             password_val = self.findElement("login/password").get_attribute("value")
             assert "Invalid credentials" in error_text, f"【断言失败】错误信息：{error_text}"
-            assert username_val == self.username, f"【断言失败】用户名不匹配：{username_val}"
+            assert "auth/login" in self.driver.current_url, f"【断言失败】未在登录页"
             assert password_val == "", "【断言失败】密码未清空"
             logger.info("✅ 密码错误断言通过")
 

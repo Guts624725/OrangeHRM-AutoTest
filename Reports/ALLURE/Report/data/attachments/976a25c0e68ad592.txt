@@ -1,0 +1,13 @@
+2026-06-07 03:31:56,635 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-07 03:31:56,635 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用开始
+2026-06-07 03:31:56,637 - baseData.py - INFO - 动态参数替换成功：{'firstName': 'cc', 'lastName': 'dd', 'employeeId': '1010', 'base_url': 'http://127.0.0.1:8080'}
+2026-06-07 03:31:56,637 - baseAutoHttp.py - INFO - 请求方式: POST
+2026-06-07 03:31:56,637 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-07 03:31:56,637 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:8080', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/addEmployee'}
+2026-06-07 03:31:56,637 - baseAutoHttp.py - INFO - 请求参数: params=None | data=None | json={'employeeId': '1010', 'empPicture': None, 'firstName': 'cc', 'lastName': 'dd', 'middleName': None}
+2026-06-07 03:31:56,694 - baseAutoHttp.py - INFO - 响应状态码: 403
+2026-06-07 03:31:56,695 - baseAutoHttp.py - INFO - 响应耗时: 0.05634s
+2026-06-07 03:31:56,695 - baseAutoHttp.py - INFO - 响应JSON: {'error': {'status': 403, 'message': 'Unauthorized'}}
+2026-06-07 03:31:56,695 - baseAutoHttp.py - INFO - 【07非管理员登录:employee_login】接口调用结束
+
+2026-06-07 03:31:56,695 - test_web_ohrm.py - INFO - ☑️【非管理员账号操作员工】用例执行成功

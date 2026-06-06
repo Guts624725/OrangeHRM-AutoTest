@@ -1,0 +1,14 @@
+2026-06-07 03:31:56,012 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-07 03:31:56,014 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
+2026-06-07 03:31:56,014 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用开始
+2026-06-07 03:31:56,016 - baseData.py - INFO - 动态参数替换成功：{'employeeId': '0004', 'base_url': 'http://127.0.0.1:8080'}
+2026-06-07 03:31:56,016 - baseAutoHttp.py - INFO - 请求方式: GET
+2026-06-07 03:31:56,016 - baseAutoHttp.py - INFO - 请求地址: http://127.0.0.1:8080/web/index.php/api/v2/pim/employees
+2026-06-07 03:31:56,016 - baseAutoHttp.py - INFO - 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'Referer': 'http://127.0.0.1:8080/web/index.php/pim/viewEmployeeList'}
+2026-06-07 03:31:56,016 - baseAutoHttp.py - INFO - 请求参数: params={'limit': '50', 'offset': '0', 'model': 'detailed', 'employeeId': '0004', 'includeEmployees': 'onlyCurrent', 'sortField': 'employee.firstName', 'sortOrder': 'ASC'} | data=None | json=None
+2026-06-07 03:31:56,088 - baseAutoHttp.py - INFO - 响应状态码: 200
+2026-06-07 03:31:56,088 - baseAutoHttp.py - INFO - 响应耗时: 0.070543s
+2026-06-07 03:31:56,088 - baseAutoHttp.py - INFO - 响应JSON: {'data': [], 'meta': {'total': 0}, 'rels': []}
+2026-06-07 03:31:56,089 - baseAutoHttp.py - INFO - 【03查询员工页面:select_query】接口调用结束
+
+2026-06-07 03:31:56,095 - baseDB.py - INFO - ✅ MySQL 数据库连接成功

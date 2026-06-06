@@ -1,20 +1,24 @@
-TestSuits/ohrm_http_test/test_http_ohrm.py::TestCase01:
-- test_login_case01
-- test_login_case02
-- test_login_case03
-- test_login_case04
-- test_login_case05[test_case0]
-- test_login_case05[test_case1]
-- test_login_case05[test_case2]
-TestSuits/ohrm_http_test/test_http_ohrm.py::TestEmployee:
-- test_employee01
-- test_employee02[case_data0]
-- test_employee02[case_data1]
-- test_employee03
-- test_employee04[case_employeeId0]
-- test_employee04[case_employeeId1]
-- test_employee05
-- test_employee06[delete_case0]
-- test_employee06[delete_case1]
-- test_employee07
-- test_employee08
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase01:
+- test_login_case01[case_data0]
+- test_login_case01[case_data1]
+- test_login_case01[case_data2]
+- test_login_case01[case_data3]
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase02:
+- test_update_case01[case_data0]
+- test_update_case01[case_data1]
+- test_update_case02
+- test_addexist_case03
+- test_selectname_case04
+- test_selectid_case05
+- test_delworker_case06
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase03:
+- test_vacation_case01
+- test_vacation_case02
+- test_vacation_case03
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase04:
+- test_gowork_case01
+- test_offwork_case02
+TestSuits/ohrm_test/test_web_ohrm.py::TestCase05:
+- test_create_case01
+- test_create_case02
+- test_verify

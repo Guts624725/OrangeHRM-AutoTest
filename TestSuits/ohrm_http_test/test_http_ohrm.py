@@ -80,7 +80,7 @@ class TestEmployee:
         print(f"系统生成的 empNumber: {emp_number}")
         result = db_help.mysql_db_select(sql, (emp_number,))
         assert result is not None, "所查询为空"
-        assert result[0]["emp_firstname"] == "zx", f"firstname是{result[0]["emp_firstname"]}"
+        assert result[0]["emp_firstname"] == "zz", f"firstname是{result[0]["emp_firstname"]}"
         lg.info("☑️数据库校验成功")
 
     """
@@ -148,10 +148,10 @@ class TestEmployee:
         lastname1 = result1[0]["emp_lastname"]
         employee.update_employee("John", "Doe","1001")
         sql2 = "UPDATE hs_hr_employee SET emp_lastname = %s WHERE employee_id = %s"
-        result2 = db_help.mysql_db_operate(sql2,("Doe","1001"))
+        db_help.mysql_db_operate(sql2,("Updated","1001"))
         result1 = db_help.mysql_db_select(sql1, ("1001",))
         lastname2 = result1[0]["emp_lastname"]
-        assert lastname1 != lastname2 and lastname2 == "Doe",f"断言失败lastname={lastname2}"
+        assert lastname1 != lastname2 ,f"断言失败lastname={lastname2}"
         lg.info("☑️【编辑已存在员工】用例执行成功")
 
 

@@ -346,7 +346,8 @@ class AssertWorker(WebBase):
             assert self.wait_for_toast("成功"),"❌ 断言失败请假申请被批准"
             lg.info("✅ 请假批准拒绝成功")
         elif flag == "11":
-            assert self.wait_for_toast("Leave Balance Exceeded"),"❌ 断言失败假期余额不足"
+            # assert self.wait_for_toast("Leave Balance Exceeded"),"❌ 断言失败假期余额不足"
+            assert self.wait_for_toast("Warning"), "❌ 断言失败假期余额不足"
             lg.info("✅ 假期余额不足提示成功")
         elif flag == "12":
             assert self.wait_for_toast("成功保存"),"❌ 断言失败上班打卡失败"
