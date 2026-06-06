@@ -3,7 +3,6 @@
 @Time    : 2026/5/29 22:55
 @Desc    : 
 """
-import re
 import pytest
 import requests
 from Base.baseLogger import Logger
@@ -25,9 +24,12 @@ def login():
     session = requests.Session()
     # 🔥 调用通用登录
     # login_as(session, url, "admin", "Keepmoving624.")
-    login_as(session, url,
-             username=config.get("login", "username", fallback="admin"),
-             password=config.get("login", "password", fallback="******"))
+    login_as(
+        session,
+        url,
+        username=config.get("login", "username", fallback="admin"),
+        password=config.get("login", "password", fallback="******")
+    )
     print("✅ 登录成功，session 已准备好")
     yield session, url
     print("\n✅ 所有用例执行完毕，会话关闭")
@@ -38,9 +40,14 @@ def employee_login():
     print("\n✅ 【全局前置】管理员登录中...")
     session = requests.Session()
     # 🔥 调用通用登录
-    login_as(session, url, "kkkkk", "Keepmoving624.")
+    login_as(
+        session,
+        url,
+        "kkkkk",
+        password=config.get("login", "password", fallback="******")
+    )
     print("✅ 登录成功，session 已准备好")
-    yield session
+    yield session,url
     print("\n✅ 所有用例执行完毕，会话关闭")
 
 @pytest.fixture(scope="session")

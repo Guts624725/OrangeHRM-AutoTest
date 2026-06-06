@@ -1,8 +1,0 @@
-2026-05-28 12:46:33,939 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
-2026-05-28 12:46:33,940 - globalManager.py - INFO - 全局变量管理器初始化成功
-2026-05-28 12:46:36,417 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
-2026-05-28 12:46:36,419 - baseData.py - INFO - 数据驱动读取成功：01登录功能
-2026-05-28 12:46:36,420 - baseUtils.py - INFO - 配置文件读取成功：E:\develop\PythonProject\OrangeHRM\Config\配置文件.ini
-2026-05-28 12:46:36,421 - baseData.py - INFO - 数据驱动读取成功：02修改员工信息功能
-2026-05-28 12:46:36,432 - conftest.py - ERROR - ❌ 启动浏览器失败：Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
-

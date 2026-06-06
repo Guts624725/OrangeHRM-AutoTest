@@ -3,17 +3,23 @@
 @Time    : 2026/5/28 16:27
 @Desc    : 
 """
-from unittest import result
 
 import pytest
 
 from Base.baseData import DataDriver
 from Base.baseLogger import Logger
+from Base.utils import read_config_ini
+from Base.basePath import BasePath as BP
 from PageObject.ohrm_http_test.api_employee_page import Employee, UpdateEmployee, DeleteEmployee, LoginOutEmployee, \
     EmployeeLogin
 from PageObject.ohrm_http_test.api_login_page import LoginPage01, LoginPage02, LoginPage03, LoginPage04, LoginPage05
 
 lg = Logger("test_web_ohrm.py").getLogger()
+
+
+config = read_config_ini(BP.CONFIG_FILE_PATH)
+username = config["login"]["username"]
+password = config["login"]["password"]
 
 
 """登录模块"""
@@ -22,13 +28,13 @@ class TestCase01:
     """管理员正常登录"""
     def test_login_case01(self):
         log = LoginPage01()
-        log.login("admin", "Keepmoving624.")
+        log.login(username, password)
         lg.info("【管理员正常登录】用例执行成功")
 
     """未携带CSRF令牌"""
     def test_login_case02(self):
         log = LoginPage02()
-        log.login("admin", "Keepmoving624.")
+        log.login(username, password)
         lg.info("【未携带CSRF令牌】用例执行成功")
 
     """
@@ -37,13 +43,13 @@ class TestCase01:
     """
     def test_login_case03(self):
         log = LoginPage03()
-        log.login("admin", "Keepmoving624.")
+        log.login(username, password)
         lg.info("【携带过期CSRF令牌】用例执行成功")
 
     """携带错误格式Token"""
     def test_login_case04(self):
         log = LoginPage04()
-        log.login("admin", "Keepmoving624.")
+        log.login(username, password)
         lg.info("【携带错误格式Token】用例执行成功")
 
     """
@@ -177,21 +183,23 @@ class TestEmployee:
     """未登录访问员工接口"""
     def test_employee07(self):
 
-        logout = LoginOutEmployee()
+        base_url = config["项目运行配置"]["TEST_URL"]
+
+        logout = LoginOutEmployee(base_url)
         resp = logout.login_out_employee()
         # 断言1：状态码 302
         assert resp.status_code == 302, f"断言失败：状态码应为302，实际是{resp.status_code}"
 
         # 断言2：响应头 Location 包含登录页地址
         location = resp.headers.get('Location', '')
-        print(f"谢谢谢谢谢谢Location: {location}")
 
         assert 'auth/login' in location or 'login' in location, f"断言失败：未跳转到登录页，Location: {location}"
 
 
     """非管理员账号操作员工"""
     def test_employee08(self,employee_login_session):
-        employee = EmployeeLogin(employee_login_session)
+        session,url  = employee_login_session
+        employee = EmployeeLogin(session,url)
         resp = employee.employee_login("cc","dd","1010")
         assert resp.status_code == 403,"断言失败，没有添加员工功能操作成功"
         assert "Unauthorized" in resp.text

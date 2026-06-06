@@ -4,8 +4,8 @@ employee_login:
   headers:
     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
     Content-Type: application/json
-    Origin: http://127.0.0.1:8080
-    Referer: http://127.0.0.1:8080/web/index.php/pim/addEmployee
+    Origin: ${base_url}
+    Referer: ${base_url}/web/index.php/pim/addEmployee
   json:
     employeeId: "${employeeId}"
     empPicture: null

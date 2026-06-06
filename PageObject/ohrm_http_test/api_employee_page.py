@@ -53,7 +53,10 @@ class Employee(ApiBase):
 
     def select_query_employee(self, employeeId):
         """查询指定员工"""
-        change_data = {"employeeId": employeeId}
+        change_data = {
+            "employeeId": employeeId,
+            "base_url": self.base_url
+        }
         return self.request_base("select_query", change_data=change_data)
 
 
@@ -69,7 +72,8 @@ class UpdateEmployee(ApiBase):
         change_data = {
             "firstName": firstName,
             "lastName": lastName,
-            "employeeId": employeeId
+            "employeeId": employeeId,
+            "base_url": self.base_url
         }
         return self.request_base("update_employee", change_data)
 
@@ -91,30 +95,39 @@ class DeleteEmployee(ApiBase):
         所以直接传 json 更靠谱
         """
         # change_data = {"ids": [employeeId]}  # 这种方式在 YAML 里不好配，弃用
-        return self.request_base("delete_employee", json={"ids": [employeeId]})
+        change_data ={
+            "base_url" : self.base_url,
+        }
+        return self.request_base("delete_employee", change_data , json={"ids": [employeeId]})
 
 
 """未登录场景：验证鉴权拦截"""
 class LoginOutEmployee(ApiBase):
 
-    def __init__(self):
+    def __init__(self,url):
         super().__init__("06未登录访问员工接口")
+        self.base_url = url
 
-    def login_out_employee(self):
+    def login_out_employee(self,):
         """
         未登录状态下访问员工接口
         allow_redirects=False 必须加，否则 302 跳转到登录页后返回 200
         用例里判断的是 401/403，如果被重定向成 200，断言就失效了
         """
-        return self.request_base("employee", allow_redirects=False)
+
+        change_data = {
+            "base_url": self.base_url,
+        }
+        return self.request_base("employee",change_data ,  allow_redirects=False)
 
 
 """非管理员账号：验证权限控制"""
 class EmployeeLogin(ApiBase):
 
-    def __init__(self, session):
+    def __init__(self, session,url):
         super().__init__("07非管理员登录")
         self.session = session
+        self.base_url = url
 
     def employee_login(self, firstName, lastName, employeeId):
         """
@@ -124,6 +137,7 @@ class EmployeeLogin(ApiBase):
         change_data = {
             "firstName": firstName,
             "lastName": lastName,
-            "employeeId": employeeId
+            "employeeId": employeeId,
+            "base_url": self.base_url
         }
         return self.request_base("employee_login", change_data=change_data)

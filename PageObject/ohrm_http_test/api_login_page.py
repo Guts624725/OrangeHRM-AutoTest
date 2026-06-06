@@ -9,9 +9,14 @@ import requests
 import re
 from Base.baseAutoHttp import ApiBase
 from Base.baseLogger import Logger
+from Base.utils import read_config_ini
+from Base.basePath import BasePath as BP
 
 lg = Logger("web_login_page.py").get_logger()
-BASE_URL = "http://127.0.0.1:8080"
+
+config = read_config_ini(BP.CONFIG_FILE_PATH)
+BASE_URL = config["项目运行配置"]["TEST_URL"].rstrip('/')
+# BASE_URL = "http://127.0.0.1:8080"
 
 def _extract_token(html: str) -> str:
     token_match = re.search(r':token="([^"]+)"', html)

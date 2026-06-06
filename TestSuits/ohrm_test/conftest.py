@@ -6,14 +6,24 @@
 import pytest
 
 from PageObject.ohrm_test.web_login_page import LoginPage
+from Base.utils import read_config_ini
+from Base.basePath import BasePath as BP
+
+config = read_config_ini(BP.CONFIG_FILE_PATH)
 
 @pytest.fixture(scope="function")
 def info_login():
-    log = LoginPage(username="admin", password="Keepmoving624.")
+    log = LoginPage(
+        username=config.get("login", "username", fallback="admin"),
+        password=config.get("login", "password", fallback="******")
+    )
     log.login()
 
 @pytest.fixture(scope="function")
 def info_login1():
-    log = LoginPage(username="lisisi", password="Keepmoving624.")
+    log = LoginPage(
+        username="lisisi",
+        password=config.get("login", "password", fallback="******")
+    )
     log.login()
 
