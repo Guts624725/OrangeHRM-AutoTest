@@ -2,7 +2,7 @@
 
 基于 **OrangeHRM 5.x** 系统，独立搭建的 **Web UI + HTTP 接口** 自动化测试框架。
 
-&gt; **项目性质**：个人实战项目，按企业级测试标准设计与实现。
+> **项目性质**： **项目性质**：个人实战项目，按企业级测试标准设计与实现。
 
 ---
 
@@ -32,7 +32,7 @@ OrangeHRM-AutoTest/
 ├── .gitignore                      # 敏感文件与日志忽略规则
 ├── Config/
 │   ├── 配置文件.ini                # 本地环境配置（已加入 .gitignore，不上传）
-│   └── 配置文件.ini.template       # 配置模板（脱敏，含占位符说明）
+│   └── 配置文件.ini.example       # 配置模板（脱敏，含占位符说明）
 ├── Base/                           # 通用封装层
 │   ├── baseAutoHttp.py             # HTTP 请求基类（ApiBase）
 │   ├── baseAutoWeb.py              # Web UI 自动化基类
@@ -119,9 +119,9 @@ allure serve Reports/ALLURE/Result
 本项目已接入 Jenkins + Gitee，代码 Push 后自动触发构建
 
 | 配置项 | 说明                    |
-|------|-----------------------|
+|-----|-----------------------|
 | 代码托管 | Gitee          |
-| CI 工具	 | Jenkins (Docker 部署)     |
+| CI 工具 | Jenkins (Docker 部署)     |
 | 触发方式 | 手动构建 / 轮询 SCM |
 | 构建流程 | 拉取代码 → 注入配置 → 安装依赖 → 运行测试 → 生成 Allure 报告              |
 | 报告查看 | Jenkins 构建页面直接查看 Allure 趋势图与用例详情  |
