@@ -146,10 +146,22 @@ def driver(request):
             chrome_options.add_argument('--headless=new')
             chrome_options.add_argument('--no-sandbox')
             chrome_options.add_argument('--disable-gpu')
-            driver_instance = webdriver.Chrome(
-                service=ChromeService(executable_path=CHROME_DRIVER_PATH),
-                options=chrome_options
-            )
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            chrome_options.add_argument('--window-size=1920,1080')
+            # 🔥 关键：Jenkins/Docker 环境自动使用 Selenium Grid
+            if os.environ.get('JENKINS_HOME'):
+                grid_url = 'http://192.168.1.3:4444/wd/hub'
+                driver_instance = webdriver.Remote(
+                    command_executor=grid_url,
+                    options=chrome_options
+                )
+                logger.info(f"✅ 连接 Selenium Grid 成功：{grid_url}")
+            else:
+                # 本地模式（保持原有逻辑）
+                driver_instance = webdriver.Chrome(
+                    service=ChromeService(executable_path=CHROME_DRIVER_PATH),
+                    options=chrome_options
+                )
             driver_instance.set_window_size(1920, 1080)
         else:
             raise ValueError(f"不支持的浏览器类型：{browser_name}")
